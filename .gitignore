@@ -1,0 +1,27 @@
+# La frontière RGPD du futur dépôt public (voir STRATEGIE.md) :
+# l'atlas se publie, les données NOMINATIVES restent locales.
+data/corpus/
+data/us-texas-tbae-architectes.csv
+data/us-texas-tbae-architectes.xlsx
+data/sg-boa-registre-architectes.csv
+data/lv-bis-buvspecialisti-*.csv
+data/us-fl-dbpr-lic02ai-*.csv
+data/sn-odas-2025.csv
+data/ke-boraqs-2025.csv
+data/extraits/
+
+# archives sources (originaux publics, lourds — restent locaux)
+data/sources-pdf/
+data/sources-html/
+
+# caches reconstructibles
+data/sources-carte/
+sauvegardes/
+.DS_Store
+
+# documents internes — la stratégie et le manifeste du corpus local ne se publient pas
+STRATEGIE.md
+CORPUS.md
+
+# machinerie du corpus local (comme CORPUS.md — peut porter des corrections nominatives)
+outils/corpus.py

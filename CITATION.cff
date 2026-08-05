@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "INDEX — Atlas mondial des ordres et registres d'architectes"
+authors:
+  - family-names: "Porporty"
+    given-names: "Edberg"
+    affiliation: "EDBERG.archi"
+version: "1.0.0"
+date-released: "2026-08-06"
+url: "https://index.archi"
+repository-code: "https://github.com/edberg-archi/index"
+license: CC-BY-4.0
+keywords:
+  - architects
+  - professional regulation
+  - registration bodies
+  - "ordre des architectes"
+  - "architects registration board"
+  - atlas
+  - open data
+abstract: >-
+  Sourced and dated headcounts of architects' official registration bodies
+  (orders, chambers, boards, councils) for 180 countries, with registration
+  regime, title protection, public registers, open-data catalogue and A-D
+  data-quality grades. Every figure carries its primary source URL. Not a
+  directory of persons: name lists stay with their publishers.

@@ -1,0 +1,39 @@
+# INDEX (index.archi)
+
+> The global atlas of architects' registration bodies: sourced, dated headcounts
+> for 180 countries — registration regime, title protection, public registers,
+> open-data catalogue, A–D data-quality grades. Compilation CC BY 4.0,
+> Edberg Porporty (EDBERG.archi). Not a directory of persons.
+
+Key facts: the UIA claims 745,665 architects across 117 sections (Feb 2025)
+without any per-country breakdown; this atlas is that breakdown. 88 headcounts
+are sourced and dated; 25 countries are grade A (bulk-downloadable rosters),
+55 grade B (searchable registers), 91 grade D (estimates only — treat as a
+work plan, not a result). Japan's kenchikushi figure is flagged non-comparable
+and excluded from sums.
+
+## Data
+
+- [atlas.json](https://index.archi/atlas.json): complete dataset (meta, 180
+  countries, federations, open-data catalogue), JSON UTF-8, stable URL
+- [DONNEES.md](https://index.archi/DONNEES.md): field-by-field schema (French),
+  derived from the dataset — includes controlled vocabularies and counts
+- [SOURCES.md](https://index.archi/SOURCES.md): one line per country with the
+  primary source URL of each headcount
+
+## Citation
+
+- [CITATION.cff](https://index.archi/CITATION.cff)
+- Cite as: Edberg Porporty, "INDEX — Atlas mondial des ordres et registres
+  d'architectes", https://index.archi (CC BY 4.0)
+
+## Reading rules
+
+- Counts are REGISTERED architects at the official body — never graduates,
+  never de-facto practitioners; jurisdictions compare only on that basis.
+- Every figure carries `effectif_source_url`, `effectif_annee`,
+  `effectif_nature` and a `qualite` grade — quote them with the number.
+- Entries with `hors_echelle` are real but non-comparable: keep them out of
+  sums, say why (the field carries the reason).
+- No personal data here: name lists stay with their publishers (see the
+  `catalogue` block for links).

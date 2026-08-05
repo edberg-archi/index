@@ -1,0 +1,149 @@
+{
+ "rows": [
+  {
+   "iso2": "MD",
+   "pays": "Moldavie",
+   "continent": "Europe",
+   "organisme": "Atestarea tehnico-profesională (Ministère de l'Infrastructure) — registres publiés par l'IP OATUCL",
+   "sigle": "MIDR/OATUCL",
+   "type_organisme": "registre_etatique",
+   "inscription_obligatoire": true,
+   "titre_protege": false,
+   "uia_membre": false,
+   "effectif": 308,
+   "effectif_annee": 2026,
+   "effectif_source_url": "https://oatucl.md/assets/pdfs/attestation/Proiectan%C8%9Bi_6a6c936f25579.pdf",
+   "effectif_nature": "registre",
+   "registre_url": "https://oatucl.md/atestarea-tehnico-profesionala-a-specialistilor",
+   "registre_recherche_publique": true,
+   "donnees_ouvertes_url": "https://oatucl.md/assets/pdfs/attestation/Proiectan%C8%9Bi_6a6c936f25579.pdf",
+   "donnees_ouvertes_format": "PDF",
+   "alternatives": [
+    {
+     "nom": "Uniunea Arhitecților din Republica Moldova (UARM)",
+     "type": "association",
+     "url": "https://www.uarm.md/ro/",
+     "effectif": 300
+    }
+   ],
+   "qualite": "A",
+   "notes": "Pas d'ordre : certification d'État (HG 743/2024, registre E_permis). La « Lista proiectanților atestați » (31.07.2026, vérifiée) compte 906 proiectanți toutes disciplines ; 312 portent des domaines d'architecture (codes A.1-4/3a-d/34.2.x) — comptage effectué sur le PDF nominatif. Le titre n'est pas protégé, c'est le droit de signer/vérifier qui l'est. Jeu « Specialiști atestați » signalé sur dataset.gov.md (id 19433), portail inaccessible au test. La Moldavie est ABSENTE de la liste des sections UIA (vérifiée) malgré des mentions contraires ; UARM ~300 membres (sources secondaires). Comptage direct de la Lista au 31.07.2026 le 05.08.2026 : 308 attestés au domaine « Arhitectură » (critère : lettres A.*, ou domaine 3 de HG 207/2022, ou codes 34.2.* de HG 743/2024-499/2025) sur 906 concepteurs toutes disciplines ; 329 en incluant urbanisme/aménagement ; nr. crt. continu 1..906."
+  },
+  {
+   "iso2": "BY",
+   "pays": "Biélorussie",
+   "continent": "Europe",
+   "organisme": "Attestation qualifiante d'État (Ministère de l'architecture et de la construction), opérée par РУП « Белстройцентр »",
+   "sigle": "BSC",
+   "type_organisme": "registre_etatique",
+   "inscription_obligatoire": true,
+   "titre_protege": false,
+   "uia_membre": true,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Белорусский союз архитекторов (BSA)",
+     "type": "association",
+     "url": "https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D1%8E%D0%B7_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2",
+     "effectif": 720
+    }
+   ],
+   "qualite": "D",
+   "notes": "Аттестат квалификационный requis pour les fonctions réglementées (Code de l'activité architecturale et urbanistique, 17.07.2023, ch. 8) ; examens et registre chez Belstroycentr. Un registre nominatif en ligne existerait (rcuk.bsc.by/att_search) mais TOUT le domaine .by est resté inaccessible depuis ce réseau (403/DNS) — URLs non vérifiées donc non livrées ; aucun effectif agrégé trouvé. BSA (fondé 1935, membre UIA) : 720 membres (snippet bsa.by) à « plus de 1 000 » (Wikipédia ru) — divergence non tranchée."
+  },
+  {
+   "iso2": "GE",
+   "pays": "Géorgie",
+   "continent": "Europe",
+   "organisme": "Aucun ordre ni registre obligatoire (profession dérégulée) — certification d'État en cours d'introduction",
+   "sigle": null,
+   "type_organisme": "aucun",
+   "inscription_obligatoire": false,
+   "titre_protege": false,
+   "uia_membre": true,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Union of Architects of Georgia (საქართველოს არქიტექტორთა კავშირი)",
+     "type": "association",
+     "url": "https://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%95%E1%83%94%E1%83%9A%E1%83%9D%E1%83%A1_%E1%83%90%E1%83%A0%E1%83%A5%E1%83%98%E1%83%A2%E1%83%94%E1%83%A5%E1%83%A2%E1%83%9D%E1%83%A0%E1%83%97%E1%83%90_%E1%83%99%E1%83%90%E1%83%95%E1%83%A8%E1%83%98%E1%83%A0%E1%83%98",
+     "effectif": 722
+    }
+   ],
+   "qualite": "D",
+   "notes": "DÉCOUVERTE (vérifiée sur matsne.gov.ge, doc 32506, loi « sur l'activité architecturale » amendée 09.06.2026) : art. 4 — seul un architecte certifié pourra viser un projet, exemption transitoire jusqu'au 20.12.2026 ; organe certificateur pas encore nommé — à re-vérifier début 2027. Aujourd'hui : ni licence, ni chambre, ni registre. Union créative (1931, 722 membres, section UIA) sans site officiel vérifié. Piège : « Georgia architect license » ramène l'État américain."
+  },
+  {
+   "iso2": "AM",
+   "pays": "Arménie",
+   "continent": "Europe",
+   "organisme": "Comité de l'urbanisme (Քաղաքաշինության կոմիտե) — licences des organisations + certification des spécialistes responsables",
+   "sigle": null,
+   "type_organisme": "registre_etatique",
+   "inscription_obligatoire": null,
+   "titre_protege": false,
+   "uia_membre": true,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": "https://www.minurban.am/hy/document/kaghakashinutyan-bnagavarum-havastagrvats-andzants-tsank",
+   "registre_recherche_publique": true,
+   "donnees_ouvertes_url": "https://www.minurban.am/uploads/8828aefe021975bb15b4bfd5f1c8a882-shmz.xlsx",
+   "donnees_ouvertes_format": "XLSX",
+   "alternatives": [
+    {
+     "nom": "Union of Architects of Armenia (Հայաստանի ճարտարապետների միություն)",
+     "type": "association",
+     "url": "https://en.wikipedia.org/wiki/Armenian_Union_of_Architects",
+     "effectif": 643
+    }
+   ],
+   "qualite": "D",
+   "notes": "Registre d'État nominatif TÉLÉCHARGEABLE (XLSX vérifié, 28.06.2026) : 3 146 certificats pour 2 193 personnes — MAIS le groupe 01 (documents d'urbanisme) EXCLUT expressément les parties architecturales ; l'architecture n'apparaît qu'en expertise (code 02.01 : 16 certificats). Impossible de compter les architectes-concepteurs — effectif null malgré des données ouvertes de qualité. Union des architectes : 643 membres (année inconnue), membre UIA ; uaa.am hors ligne. Piège : ne pas présenter les 2 193 certifiés comme des architectes."
+  },
+  {
+   "iso2": "AZ",
+   "pays": "Azerbaïdjan",
+   "continent": "Europe",
+   "organisme": "Aucun registre individuel — licences d'activité aux personnes morales (Comité d'État de l'urbanisme et de l'architecture)",
+   "sigle": null,
+   "type_organisme": "aucun",
+   "inscription_obligatoire": false,
+   "titre_protege": null,
+   "uia_membre": true,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Azərbaycan Memarlar İttifaqı (Union des architectes)",
+     "type": "association",
+     "url": "https://uaa.az/en/",
+     "effectif": null
+    }
+   ],
+   "qualite": "D",
+   "notes": "Le Comité d'État (arxkom.gov.az, vérifié) ne tient AUCUN registre d'architectes (plans directeurs, permis, registre des BÂTIMENTS). Licences aux entités (loi 2016) ; e-qanun.az et icaze.gov.az inaccessibles au test. L'Union des memarlar (1934/36, section UIA, uaa.az vérifié) ne publie pas son effectif. Toute estimation serait inventée — aucune donnée publique nominative."
+  }
+ ]
+}

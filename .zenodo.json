@@ -1,0 +1,28 @@
+{
+  "title": "INDEX — Atlas mondial des ordres et registres d'architectes",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Porporty, Edberg",
+      "affiliation": "EDBERG.archi"
+    }
+  ],
+  "description": "Sourced and dated headcounts of architects' official registration bodies (orders, chambers, boards, councils) for 180 countries, with registration regime, title protection, public registers, open-data catalogue and A–D data-quality grades. Every figure carries its primary source URL. Not a directory of persons: name lists stay with their publishers, linked, never copied. Site and canonical dataset: https://index.archi — atlas.json at https://index.archi/atlas.json",
+  "keywords": [
+    "architects",
+    "professional regulation",
+    "registration bodies",
+    "ordre des architectes",
+    "atlas",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://index.archi",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}

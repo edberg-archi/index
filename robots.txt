@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Machine-readable entry points: /llms.txt · /atlas.json · /CITATION.cff

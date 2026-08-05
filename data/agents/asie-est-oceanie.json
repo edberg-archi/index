@@ -1,0 +1,620 @@
+{
+ "rows": [
+  {
+   "iso2": "JP",
+   "pays": "Japon",
+   "continent": "Asie",
+   "organisme": "Système kenchikushi (建築士) — licence d'État MLIT ; registre central des 1re classe tenu par la fédération des associations de kenchikushi (organisme central désigné)",
+   "sigle": "MLIT/JFABEA",
+   "type_organisme": "registre_etatique",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": 383923,
+   "effectif_annee": 2025,
+   "effectif_source_url": "https://touroku.kenchikushikai.or.jp/wp-content/uploads/2025/04/tourokusu20250401.pdf",
+   "effectif_nature": "rapport_officiel",
+   "registre_url": "https://touroku.kenchikushikai.or.jp/meibo/",
+   "registre_recherche_publique": false,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Japan Institute of Architects (JIA)",
+     "type": "association",
+     "url": "https://www.jia.or.jp",
+     "effectif": null
+    },
+    {
+     "nom": "日本建築士会連合会 (fédération des kenchikushi-kai préfectoraux)",
+     "type": "association",
+     "url": "http://www.kenchikushikai.or.jp",
+     "effectif": null
+    }
+   ],
+   "qualite": "C",
+   "notes": "383 923 一級建築士 (1re classe) inscrits au 01.04.2025 (PDF officiel vérifié). PIÈGE MAJEUR : stock cumulé, pas des praticiens actifs — le titre couvre architectes ET ingénieurs du bâtiment, inclut retraités/inactifs (~44 % ont 60+ ans en 2024) ; ~38 % seulement rattachés à une agence. Aussi 796 459 de 2e classe (préfectorale) et 19 124 « bois » : ~1,2 M de kenchikushi au total. Le registre ne se consulte que sur place. Ne pas assimiler kenchikushi à « architecte » au sens UIA."
+  },
+  {
+   "iso2": "CN",
+   "pays": "Chine",
+   "continent": "Asie",
+   "organisme": "MOHURD — architectes de 1re classe enregistrés (一级注册建筑师), comité national d'enregistrement",
+   "sigle": "MOHURD",
+   "type_organisme": "registre_etatique",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": 51374,
+   "effectif_annee": 2025,
+   "effectif_source_url": "https://www.hqwx.com/yjjzhus-kaoshi/news/17526483323500.html",
+   "effectif_nature": "presse",
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Architectural Society of China (ASC, section UIA)",
+     "type": "association",
+     "url": null,
+     "effectif": null
+    }
+   ],
+   "qualite": "C",
+   "notes": "51 374 architectes de 1re classe en 2025 (centre d'enregistrement MOHURD via revue spécialisée, URL vérifiée) ; 30 863 en 2020 (+66 %). Deux niveaux (national/provincial). Le registre officiel 四库一平台 (jzsc.mohurd.gov.cn) est injoignable hors de Chine — URL non livrée. La conception passe surtout par des instituts de design qualifiés ; l'enregistrement individuel sert à la signature."
+  },
+  {
+   "iso2": "KR",
+   "pays": "Corée du Sud",
+   "continent": "Asie",
+   "organisme": "Licence d'État 건축사 (examen MOLIT) — enregistrement au KARB opéré par la Korea Institute of Registered Architects (대한건축사협회)",
+   "sigle": "KIRA",
+   "type_organisme": "ordre",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": 17472,
+   "effectif_annee": 2025,
+   "effectif_source_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202602021359226950226",
+   "effectif_nature": "presse",
+   "registre_url": "https://kirakarb.kira.or.kr/mainPage.do",
+   "registre_recherche_publique": true,
+   "donnees_ouvertes_url": "https://stat.molit.go.kr/portal/cate/statView.do?hFormId=5633&hRsId=372",
+   "donnees_ouvertes_format": "XLSX",
+   "alternatives": [
+    {
+     "nom": "Korean Institute of Architects (KIA)",
+     "type": "association",
+     "url": "https://www.kia.or.kr",
+     "effectif": null
+    }
+   ],
+   "qualite": "B",
+   "notes": "17 472 건축사 en 2025 contre 12 462 en 2021 (+40 %) — presse citant les données KIRA (vérifiée) ; ~1 000-1 100 reçus/an. Adhésion KIRA redevenue OBLIGATOIRE (réforme votée janv. 2022). KARB : consultation publique. Le MOLIT publie chaque année « 건축사현황 » en XLSX (portail statistique vérifié). UIA : via la fédération FIKA."
+  },
+  {
+   "iso2": "TW",
+   "pays": "Taïwan",
+   "continent": "Asie",
+   "organisme": "Licence d'État 建築師 (examen national) + adhésion obligatoire à un ordre local fédéré par la National Architects Association",
+   "sigle": "NAA",
+   "type_organisme": "ordre",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "中華民國全國建築師公會 (NAA, fédère 18 ordres locaux)",
+     "type": "association",
+     "url": "https://www.naa.org.tw",
+     "effectif": null
+    }
+   ],
+   "qualite": "D",
+   "notes": "Régime 建築師法 : examen, certificat, puis licence d'ouverture et adhésion au 公會 local obligatoire. Aucun effectif national vérifiable trouvé (portail bâtiment inaccessible hors Taïwan ; l'annuaire statistique de l'Intérieur publie « 建築師開業人數 » mais n'a pu être consulté). UIA : « Chinese Taipei Association of Architects » ; non membre ARCASIA."
+  },
+  {
+   "iso2": "HK",
+   "pays": "Hong Kong",
+   "continent": "Asie",
+   "organisme": "Architects Registration Board (Cap. 408)",
+   "sigle": "ARB",
+   "type_organisme": "board",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": 4526,
+   "effectif_annee": 2026,
+   "effectif_source_url": "https://www.arb.org.hk/en/the_register",
+   "effectif_nature": "registre",
+   "registre_url": "https://www.arb.org.hk/en/the_register",
+   "registre_recherche_publique": true,
+   "donnees_ouvertes_url": "https://www.hkia.net/upload/finder/file/Membership/List%20of%20Member.pdf",
+   "donnees_ouvertes_format": "PDF",
+   "alternatives": [
+    {
+     "nom": "Hong Kong Institute of Architects (HKIA)",
+     "type": "association",
+     "url": "https://www.hkia.net",
+     "effectif": 4295
+    }
+   ],
+   "qualite": "B",
+   "notes": "4 526 = comptage du registre ARB en ligne (452 pages × 10 + 6, le 05.08.2026) — pas de total affiché. Cap. 408 protège le titre « Registered Architect » ; le dépôt des plans passe par le régime distinct d'Authorized Person (liste I). La HKIA publie une liste nominative PDF de ses membres (vérifiée, 10.06.2026 : 4 295) — c'est l'association, pas le registre."
+  },
+  {
+   "iso2": "MO",
+   "pays": "Macao",
+   "continent": "Asie",
+   "organisme": "Conselho de Arquitectura, Engenharia e Urbanismo (loi n° 1/2015)",
+   "sigle": "CAEU",
+   "type_organisme": "conseil",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Architects Association of Macau (AAM, section UIA)",
+     "type": "association",
+     "url": null,
+     "effectif": null
+    }
+   ],
+   "qualite": "D",
+   "notes": "Loi 1/2015 : reconnaissance des qualifications et inscription gérées par le CAEU — site actif mais aucune liste publique ni effectif depuis l'extérieur ; les listes paraissent au Bulletin officiel."
+  },
+  {
+   "iso2": "MN",
+   "pays": "Mongolie",
+   "continent": "Asie",
+   "organisme": "Union of Mongolian Architects — association ; licences d'activité de conception par le ministère de la Construction",
+   "sigle": "UMA",
+   "type_organisme": "association",
+   "inscription_obligatoire": null,
+   "titre_protege": null,
+   "uia_membre": true,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Union of Mongolian Architects (UMA)",
+     "type": "association",
+     "url": "https://uma.mn",
+     "effectif": null
+    }
+   ],
+   "qualite": "D",
+   "notes": "Aucun registre public d'architectes trouvé. Réglementation par licences d'activité (entreprises de conception) plutôt que tableau individuel. ARCASIA : UMA membre."
+  },
+  {
+   "iso2": "SG",
+   "pays": "Singapour",
+   "continent": "Asie",
+   "organisme": "Board of Architects (Architects Act 1991)",
+   "sigle": "BOA",
+   "type_organisme": "board",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": false,
+   "effectif": 1999,
+   "effectif_annee": 2026,
+   "effectif_source_url": "https://data.gov.sg/datasets/d_d77de0f78ca589a5c61da7a60fdee6ba/view",
+   "effectif_nature": "registre",
+   "registre_url": "https://www.boa.gov.sg/find-architects/register-of-architects/",
+   "registre_recherche_publique": true,
+   "donnees_ouvertes_url": "https://data.gov.sg/datasets/d_d77de0f78ca589a5c61da7a60fdee6ba/view",
+   "donnees_ouvertes_format": "CSV",
+   "alternatives": [
+    {
+     "nom": "Singapore Institute of Architects (SIA)",
+     "type": "association",
+     "url": null,
+     "effectif": null
+    }
+   ],
+   "qualite": "A",
+   "notes": "CAS EXEMPLAIRE : le registre BOA est en donnée ouverte sur data.gov.sg (CSV nominatif : nom, n°, agence ; 1 999 enregistrements comptés via l'API le 05.08.2026, à jour du 13.07.2026) = titulaires d'un practising certificate. Jeux compagnons : agences et architectes étrangers. L'Architects Act réserve les services d'architecture aux inscrits. SIA ABSENTE de la liste des sections UIA (vérifiée)."
+  },
+  {
+   "iso2": "MY",
+   "pays": "Malaisie",
+   "continent": "Asie",
+   "organisme": "Lembaga Arkitek Malaysia / Board of Architects Malaysia (Architects Act 1967)",
+   "sigle": "LAM",
+   "type_organisme": "board",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": 2663,
+   "effectif_annee": 2026,
+   "effectif_source_url": "https://www.lam.gov.my/search-member?atype=A",
+   "effectif_nature": "registre",
+   "registre_url": "https://www.lam.gov.my/search-member?atype=A",
+   "registre_recherche_publique": true,
+   "donnees_ouvertes_url": "https://www.lam.gov.my/search-member?atype=A",
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Pertubuhan Akitek Malaysia (PAM)",
+     "type": "association",
+     "url": "https://www.pam.org.my",
+     "effectif": null
+    }
+   ],
+   "qualite": "A",
+   "notes": "2 663 « Arkitek Profesional » comptés le 05.08.2026 : la liste nominative INTÉGRALE est rendue en une page HTML — de facto téléchargeable en masse (grade A malgré l'absence de CSV). Le site exige un User-Agent navigateur (Cloudflare). LAM enregistre aussi Graduate Architects, technologues, etc. UIA : PAM. Confirmé par comptage direct le 05.08.2026 : 2 663 exactement (No 1-2663 continu ; 2 661 couples numéro-nom distincts, deux doublons d'impression gardés flaggés) ; rôle sœur « Graduate Architect » vu au portail, non moissonné."
+  },
+  {
+   "iso2": "TH",
+   "pays": "Thaïlande",
+   "continent": "Asie",
+   "organisme": "Architect Council of Thailand (สภาสถาปนิก), Architect Act B.E. 2543 (2000)",
+   "sigle": "ACT",
+   "type_organisme": "conseil",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Association of Siamese Architects (ASA) — 11 372 membres en règle",
+     "type": "association",
+     "url": "https://asa.or.th/member-stat/",
+     "effectif": 11372
+    }
+   ],
+   "qualite": "D",
+   "notes": "L'ACT licencie 4 domaines sur 3 grades. Aucun TOTAL public trouvé : les rapports annuels officiels (PDF vérifiés) ne publient pas l'effectif ; l'ancien vérificateur en ligne est mort (404). L'ASA affiche 11 372 membres en règle (page member-stat) — association, pas le conseil. UIA : ASA."
+  },
+  {
+   "iso2": "VN",
+   "pays": "Vietnam",
+   "continent": "Asie",
+   "organisme": "Certificats d'exercice (chứng chỉ hành nghề kiến trúc) délivrés par les Départements provinciaux de la Construction — Loi architecture n° 40/2019/QH14",
+   "sigle": null,
+   "type_organisme": "registre_etatique",
+   "inscription_obligatoire": true,
+   "titre_protege": null,
+   "uia_membre": true,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Hội Kiến trúc sư Việt Nam (VAA, fondée 1948) — ~6 000 membres (2015)",
+     "type": "association",
+     "url": "https://kienviet.net",
+     "effectif": 6000
+    }
+   ],
+   "qualite": "D",
+   "notes": "Délivrance PROVINCIALE (Sở Xây dựng), examens confiés aux organisations socio-professionnelles (dont la VAA) ; pas de total national publié, portail national injoignable au test. UIA : section vietnamienne."
+  },
+  {
+   "iso2": "PH",
+   "pays": "Philippines",
+   "continent": "Asie",
+   "organisme": "Professional Regulation Commission — Board of Architecture (RA 9266 de 2004)",
+   "sigle": "PRC",
+   "type_organisme": "registre_etatique",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": 58000,
+   "effectif_annee": 2024,
+   "effectif_source_url": "https://en.wikipedia.org/wiki/United_Architects_of_the_Philippines",
+   "effectif_nature": "estimation",
+   "registre_url": "https://verification.prc.gov.ph",
+   "registre_recherche_publique": true,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "United Architects of the Philippines (UAP) — IAPOA accréditée",
+     "type": "association",
+     "url": null,
+     "effectif": 58000
+    }
+   ],
+   "qualite": "B",
+   "notes": "58 000 = effectif revendiqué par l'UAP (2024) ; l'UAP étant l'organisation intégrée obligatoire, bon proxy du total PRC — le chiffre PRC exact n'est publié que sur demande FOI. Vérification nominative en ligne (verification.prc.gov.ph). Flux fort : 2 799 reçus à l'examen de juin 2026 (85 %). L'ancien domaine UAP est perdu (redirige vers un site tiers)."
+  },
+  {
+   "iso2": "ID",
+   "pays": "Indonésie",
+   "continent": "Asie",
+   "organisme": "Dewan Arsitek Indonesia — registre national STRA (loi UU 6/2017)",
+   "sigle": "DAI",
+   "type_organisme": "conseil",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": 4400,
+   "effectif_annee": 2024,
+   "effectif_source_url": "https://www.kompas.com/properti/read/2024/02/21/130000021/baru-4.400-arsitek-di-indonesia-yang-kantongi-stra",
+   "effectif_nature": "presse",
+   "registre_url": "https://appv2.dewanarsitek.id/direktoristra",
+   "registre_recherche_publique": true,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Ikatan Arsitek Indonesia (IAI) — 26 000 membres (2024)",
+     "type": "association",
+     "url": "https://www.iai.or.id",
+     "effectif": 26000
+    }
+   ],
+   "qualite": "B",
+   "notes": "Mise en place récente : loi 2017, DAI installée 03.12.2020, STRA depuis 2021. 4 400 architectes ber-STRA en févr. 2024 (Kompas, vérifié — ratio 1/80 000 hab.) contre 26 000 membres IAI : écart = transition en cours. Direktori STRA public (vérifié). Attention homonymie : dai.or.id = conseil des assurances."
+  },
+  {
+   "iso2": "MM",
+   "pays": "Myanmar",
+   "continent": "Asie",
+   "organisme": "Myanmar Architect Council (loi n° 39/2014)",
+   "sigle": "MAC",
+   "type_organisme": "conseil",
+   "inscription_obligatoire": true,
+   "titre_protege": null,
+   "uia_membre": false,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": "https://www.mac.org.mm/ralasla-aa-list/register-architects-list/",
+   "registre_recherche_publique": true,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Association of Myanmar Architects (AMA)",
+     "type": "association",
+     "url": null,
+     "effectif": null
+    }
+   ],
+   "qualite": "B",
+   "notes": "Le MAC publie des listes par catégories (RA, LA, SLA, ASEAN Architect) — URLs vérifiées. PIÈGE : listes publiées comme GALERIES D'IMAGES (WordPress) : consultables mais ni interrogeables ni comptables automatiquement ; aucun total agrégé."
+  },
+  {
+   "iso2": "KH",
+   "pays": "Cambodge",
+   "continent": "Asie",
+   "organisme": "Board of Architects Cambodia",
+   "sigle": "BAC",
+   "type_organisme": "board",
+   "inscription_obligatoire": null,
+   "titre_protege": null,
+   "uia_membre": false,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Architects Association Khmer (AAK, membre ARCASIA)",
+     "type": "association",
+     "url": null,
+     "effectif": null
+    }
+   ],
+   "qualite": "D",
+   "notes": "Le BAC (sous tutelle du ministère de l'Aménagement) est signalé mais bac.org.kh injoignable au test ; loi non vérifiée en source primaire — aucun chiffre livré."
+  },
+  {
+   "iso2": "LA",
+   "pays": "Laos",
+   "continent": "Asie",
+   "organisme": "Association of Lao Architects and Civil Engineers (pas d'ordre distinct ; encadrement MPWT)",
+   "sigle": "ALACE",
+   "type_organisme": "association",
+   "inscription_obligatoire": null,
+   "titre_protege": null,
+   "uia_membre": false,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [],
+   "qualite": "D",
+   "notes": "Aucun registre public ni effectif. L'ALACE regroupe architectes ET ingénieurs civils — ne pas prendre son effectif pour un compte d'architectes. Licences d'entreprises via le MPWT."
+  },
+  {
+   "iso2": "BN",
+   "pays": "Brunei",
+   "continent": "Asie",
+   "organisme": "Board of Architects, Professional Engineers and Quantity Surveyors (ministère du Développement)",
+   "sigle": "BAPEQS",
+   "type_organisme": "board",
+   "inscription_obligatoire": null,
+   "titre_protege": null,
+   "uia_membre": false,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "PUJA Brunei",
+     "type": "association",
+     "url": null,
+     "effectif": null
+    }
+   ],
+   "qualite": "D",
+   "notes": "BAPEQS confirmé (page mod.gov.bn/bapeqs réduite à une bannière) ; base légale citée : Order 2011 — à confirmer. Les anciennes listes de Registered Architects ne sont plus accessibles."
+  },
+  {
+   "iso2": "TL",
+   "pays": "Timor-Leste",
+   "continent": "Asie",
+   "organisme": "Aucun organisme d'inscription identifié",
+   "sigle": null,
+   "type_organisme": "aucun",
+   "inscription_obligatoire": null,
+   "titre_protege": null,
+   "uia_membre": false,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [],
+   "qualite": "D",
+   "notes": "Aucun ordre, board ni association nationale trouvés ; ni ARCASIA ni UIA. Marché minuscule, professionnels souvent inscrits à l'étranger."
+  },
+  {
+   "iso2": "AU",
+   "pays": "Australie",
+   "continent": "Océanie",
+   "organisme": "Inscription par État/territoire : 8 boards (NSW ARB, ARBV…) ; normes et agrégation par l'Architects Accreditation Council of Australia",
+   "sigle": "AACA",
+   "type_organisme": "board",
+   "inscription_obligatoire": true,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": 13567,
+   "effectif_annee": 2017,
+   "effectif_source_url": "https://aaca.org.au/wp-content/uploads/Industry-Profile.pdf",
+   "effectif_nature": "rapport_officiel",
+   "registre_url": "https://www.architects.nsw.gov.au/architects-register/architects",
+   "registre_recherche_publique": true,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Australian Institute of Architects (AIA)",
+     "type": "association",
+     "url": "https://www.architecture.com.au",
+     "effectif": 11000
+    }
+   ],
+   "qualite": "B",
+   "notes": "PAS de registre national consolidé : « Industry Profile » AACA (févr. 2018, vérifié) = 13 567 inscriptions cumulées fin 2017, soit ~11 800 architectes UNIQUES (doubles inscriptions inter-États ~13 %) — « ~14 000 » circule pour les années récentes sans source officielle à jour (le rapport annuel AACA 2024-25 n'en publie pas). Registres d'État consultables (NSW vérifié). UIA : AIA."
+  },
+  {
+   "iso2": "NZ",
+   "pays": "Nouvelle-Zélande",
+   "continent": "Océanie",
+   "organisme": "New Zealand Registered Architects Board (Registered Architects Act 2005)",
+   "sigle": "NZRAB",
+   "type_organisme": "board",
+   "inscription_obligatoire": false,
+   "titre_protege": true,
+   "uia_membre": true,
+   "effectif": 2436,
+   "effectif_annee": 2026,
+   "effectif_source_url": "https://www.nzrab.nz/",
+   "effectif_nature": "registre",
+   "registre_url": "https://www.nzrab.nz/Search/",
+   "registre_recherche_publique": true,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [
+    {
+     "nom": "Te Kāhui Whaihanga New Zealand Institute of Architects (NZIA)",
+     "type": "association",
+     "url": null,
+     "effectif": null
+    }
+   ],
+   "qualite": "B",
+   "notes": "Le site NZRAB affiche en direct « Registered (2436) » + 238 en suspension volontaire (05.08.2026) — registre interrogeable, ventilé par région. Seul le TITRE est protégé : la conception n'est pas réservée (d'où inscription non obligatoire). UIA : NZIA."
+  },
+  {
+   "iso2": "PG",
+   "pays": "Papouasie-Nouvelle-Guinée",
+   "continent": "Océanie",
+   "organisme": "Papua New Guinea Institute of Architects (régime d'enregistrement statutaire signalé)",
+   "sigle": "PNGIA",
+   "type_organisme": "association",
+   "inscription_obligatoire": null,
+   "titre_protege": null,
+   "uia_membre": false,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [],
+   "qualite": "D",
+   "notes": "Un régime d'enregistrement (fin des années 1980) est signalé mais non vérifié en ligne ; aucun site officiel actif ni registre public. Effectif inconnu — probablement quelques dizaines."
+  },
+  {
+   "iso2": "FJ",
+   "pays": "Fidji",
+   "continent": "Océanie",
+   "organisme": "Fiji Association of Architects (régime signalé sous l'Architects Act, Cap. 268)",
+   "sigle": "FAA",
+   "type_organisme": "association",
+   "inscription_obligatoire": null,
+   "titre_protege": null,
+   "uia_membre": false,
+   "effectif": null,
+   "effectif_annee": null,
+   "effectif_source_url": null,
+   "effectif_nature": null,
+   "registre_url": null,
+   "registre_recherche_publique": null,
+   "donnees_ouvertes_url": null,
+   "donnees_ouvertes_format": null,
+   "alternatives": [],
+   "qualite": "D",
+   "notes": "L'Architects Act (Cap. 268) est signalé mais non vérifié en source primaire ; aucun site actif ni registre public. Effectif inconnu — quelques dizaines."
+  }
+ ]
+}
