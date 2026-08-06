@@ -48,7 +48,8 @@ welcome and are credited. Every figure can be disputed against its source URL.
 > Zenodo. https://doi.org/10.5281/zenodo.21819381
 
 The DOI above is the **concept DOI**: it always resolves to the latest version.
-Each release also gets its own version DOI — `10.5281/zenodo.21819382` is v1.0.0.
+Each release also gets its own version DOI: `10.5281/zenodo.21820263` is v1.1.0,
+`10.5281/zenodo.21819382` is v1.0.0.
 Machine-readable citation: [`CITATION.cff`](CITATION.cff).
 
 **Breaking change in v1.1.0** — `atlas.json` moved from French to English keys

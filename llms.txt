@@ -24,13 +24,13 @@ and excluded from sums.
 ## Citation
 
 - DOI (concept, always latest): **10.5281/zenodo.21819381**
-- Each release also has a version DOI; 10.5281/zenodo.21819382 is v1.0.0.
+- Version DOIs: 10.5281/zenodo.21820263 (v1.1.0) · 10.5281/zenodo.21819382 (v1.0.0).
 - Schema note: v1.1.0 renamed every field of atlas.json from French to English
   (`effectif` → `headcount`, `qualite` → `grade`, block `pays` → `countries`).
   Read the field names from DATA.md, never assume the v1.0.0 ones.
 - [CITATION.cff](https://index.archi/CITATION.cff)
-- Cite as: Edberg Porporty (2026). "INDEX — Atlas mondial des ordres et
-  registres d'architectes". Zenodo. https://doi.org/10.5281/zenodo.21819381
+- Cite as: Edberg Porporty (2026). "INDEX — World atlas of architects'
+  registration bodies". Zenodo. https://doi.org/10.5281/zenodo.21819381
   (CC BY 4.0)
 
 ## Reading rules
