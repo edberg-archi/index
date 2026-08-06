@@ -7,8 +7,8 @@
 
 Key facts: the UIA claims 745,665 architects across 117 sections (Feb 2025)
 without any per-country breakdown; this atlas is that breakdown. 88 headcounts
-are sourced and dated; 25 countries are grade A (bulk-downloadable rosters),
-55 grade B (searchable registers), 91 grade D (estimates only — treat as a
+are sourced and dated; 26 countries are grade A (bulk-downloadable rosters),
+54 grade B (searchable registers), 91 grade D (estimates only — treat as a
 work plan, not a result). Japan's kenchikushi figure is flagged non-comparable
 and excluded from sums.
 
@@ -16,7 +16,7 @@ and excluded from sums.
 
 - [atlas.json](https://index.archi/atlas.json): complete dataset (meta, 180
   countries, federations, open-data catalogue), JSON UTF-8, stable URL
-- [DONNEES.md](https://index.archi/DONNEES.md): field-by-field schema (French),
+- [DATA.md](https://index.archi/DATA.md): field-by-field schema,
   derived from the dataset — includes controlled vocabularies and counts
 - [SOURCES.md](https://index.archi/SOURCES.md): one line per country with the
   primary source URL of each headcount
@@ -24,7 +24,10 @@ and excluded from sums.
 ## Citation
 
 - DOI (concept, always latest): **10.5281/zenodo.21819381**
-- DOI (this version, v1.0.0): 10.5281/zenodo.21819382
+- Each release also has a version DOI; 10.5281/zenodo.21819382 is v1.0.0.
+- Schema note: v1.1.0 renamed every field of atlas.json from French to English
+  (`effectif` → `headcount`, `qualite` → `grade`, block `pays` → `countries`).
+  Read the field names from DATA.md, never assume the v1.0.0 ones.
 - [CITATION.cff](https://index.archi/CITATION.cff)
 - Cite as: Edberg Porporty (2026). "INDEX — Atlas mondial des ordres et
   registres d'architectes". Zenodo. https://doi.org/10.5281/zenodo.21819381

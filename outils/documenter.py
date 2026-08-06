@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-INDEX — dérive DONNEES.md (documentation du jeu) depuis data/atlas.json.
+INDEX — dérive DATA.md (documentation du jeu) depuis data/atlas.json.
 
 Règle de la maison : le document qui décrit est DÉRIVÉ de la source, jamais
 rédigé à la main. Ce script est aussi le banc d'avant-publication :
@@ -10,7 +10,11 @@ rédigé à la main. Ce script est aussi le banc d'avant-publication :
   - il REFUSE des copies atlas.json (racine / data/) qui divergent ;
   - il REFUSE un compte de pays qui ne concorde pas avec SOURCES.md.
 
-Sortie : DONNEES.md (schéma champ par champ + recensements de vocabulaire
+Langue : atlas.json est l'artefact PUBLIÉ, donc à clés et à prose anglaises
+(voir la frontière `en_anglais()` de fusionner.py). Ce script lit et écrit
+donc en anglais ; seuls ses propres commentaires restent français.
+
+Sortie : DATA.md (schéma champ par champ + recensements de vocabulaire
 + comptes de contrôle).
 """
 import json, os, re, sys, collections
@@ -19,31 +23,31 @@ RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # La seule partie rédigée : le SENS des champs. Tout le reste est mesuré.
 DESCRIPTIONS = {
-    "iso2":                     "Code ISO 3166-1 alpha-2 — la clé du jeu.",
-    "pays":                     "Nom du pays en français.",
-    "nom_en":                   "Nom anglais (sert la recherche) — présent quand il diffère du français.",
-    "continent":                "Continent (vocabulaire recensé ci-dessous).",
-    "organisme":                "Organisme officiel d'inscription (ordre, chambre, board, conseil…). `null` = aucun organisme identifié.",
-    "sigle":                    "Sigle usuel de l'organisme.",
-    "type_organisme":           "Nature de l'organisme (vocabulaire recensé ci-dessous).",
-    "inscription_obligatoire":  "L'inscription conditionne-t-elle l'exercice ? `null` = non établi.",
-    "titre_protege":            "Le titre « architecte » est-il protégé par la loi ? `null` = non établi.",
-    "uia_membre":               "Le pays a-t-il une section membre de l'UIA ?",
-    "uia_section":              "Nom de la section UIA quand elle diffère de l'organisme d'inscription.",
-    "effectif":                 "Inscrits auprès de l'organisme officiel — voir `effectif_nature`. `null` = non publié. Ce que compte l'atlas : des INSCRITS, pas des diplômés ni des praticiens de fait.",
-    "effectif_annee":           "Année du chiffre.",
-    "effectif_source_url":      "Source du chiffre — chaque effectif la porte (aucun chiffre sans source).",
-    "effectif_nature":          "Nature de la source du chiffre (vocabulaire recensé ci-dessous).",
-    "ace_effectif_2024":        "Recoupement : effectif du même pays dans l'étude sectorielle ACE 2024 (Europe) — une DEUXIÈME mesure, pas la nôtre ; l'écart avec `effectif` se lit en fiche.",
-    "registre_url":             "Registre public consultable, quand il existe.",
-    "registre_recherche_publique": "Le registre offre-t-il une recherche nominative publique ?",
-    "donnees_ouvertes_url":     "Jeu de données téléchargeable en masse (open data, roster), quand il existe.",
-    "donnees_ouvertes_format":  "Format du jeu téléchargeable (CSV, XLSX, PDF…).",
-    "alternatives":             "Listes NON officielles (associations type RIBA/AIA, annuaires) qui permettent de recouper — jamais confondues avec le registre.",
-    "qualite":                  "Grade de qualité de la donnée : A = liste nominative téléchargeable en masse · B = registre public consultable · C = effectif officiel publié, registre non consultable · D = estimation ou liste d'association seulement.",
-    "population_m":             "Population ONU 2024 (millions, arrondie) — sert uniquement la densité indicative.",
-    "notes":                    "Précisions de lecture propres au pays (périmètre, pièges, recoupements).",
-    "hors_echelle":             "Présent quand l'effectif, réel et sourcé, ne se COMPARE pas aux autres (ex. Japon : stock cumulé kenchikushi) — il sort des sommes et des jauges, et le motif est donné.",
+    "iso2":                    "ISO 3166-1 alpha-2 code — the key of the dataset.",
+    "country":                 "Country name in English, as published by this atlas (UN/ISO short forms).",
+    "country_fr":              "Country name in French — kept so the site can be searched in either language.",
+    "continent":               "Continent (vocabulary counted below).",
+    "body":                    "Official registration body (order, chamber, board, council…). `null` = no body identified. Names of bodies are given in their own language, never translated.",
+    "acronym":                 "Usual acronym of the body.",
+    "body_type":               "Nature of the body (vocabulary counted below).",
+    "compulsory_registration": "Does registration condition the right to practise? `null` = not established.",
+    "protected_title":         "Is the title « architect » protected by law? `null` = not established.",
+    "uia_member":              "Does the country have a UIA member section?",
+    "uia_section":             "Name of the UIA section when it differs from the registration body.",
+    "headcount":               "Architects registered with the official body — see `headcount_source_type`. `null` = not published. What the atlas counts: REGISTRANTS, not graduates and not de facto practitioners.",
+    "headcount_year":          "Year of the figure.",
+    "headcount_source_url":    "Source of the figure — every headcount carries one (no figure without a source).",
+    "headcount_source_type":   "Nature of the source of the figure (vocabulary counted below).",
+    "ace_headcount_2024":      "Cross-check: headcount for the same country in the ACE 2024 sector study (Europe) — a SECOND measurement, not ours; the gap with `headcount` is readable in the country record.",
+    "register_url":            "Public searchable register, where one exists.",
+    "register_searchable":     "Does the register offer a public search by name?",
+    "open_data_url":           "Dataset downloadable in bulk (open data, roster), where one exists.",
+    "open_data_format":        "Format of the downloadable dataset (CSV, XLSX, PDF…).",
+    "alternative_lists":       "NON-official lists (associations such as RIBA or AIA, directories) that allow cross-checking — never conflated with the register.",
+    "grade":                   "Data quality grade: A = nominal list downloadable in bulk · B = public register searchable online · C = official headcount published, register not searchable · D = estimate or association list only.",
+    "population_m":            "UN 2024 population (millions, rounded) — used only for the indicative density.",
+    "notes":                   "Country-specific reading notes (scope, traps, cross-checks).",
+    "out_of_scale":            "Present when the headcount, real and sourced, does NOT compare with the others (e.g. Japan: cumulative kenchikushi stock) — it leaves the totals and the gauges, and the reason is given.",
 }
 
 def types_de(valeurs):
@@ -53,11 +57,11 @@ def types_de(valeurs):
     for v in valeurs:
         if v is None: nuls += 1
         elif isinstance(v, bool): t.add("bool")
-        elif isinstance(v, int): t.add("entier")
-        elif isinstance(v, float): t.add("nombre")
-        elif isinstance(v, str): t.add("texte")
-        elif isinstance(v, list): t.add("liste")
-        elif isinstance(v, dict): t.add("objet")
+        elif isinstance(v, int): t.add("integer")
+        elif isinstance(v, float): t.add("number")
+        elif isinstance(v, str): t.add("string")
+        elif isinstance(v, list): t.add("list")
+        elif isinstance(v, dict): t.add("object")
     return sorted(t), nuls
 
 def principal():
@@ -73,7 +77,7 @@ def principal():
             sys.exit("ÉCHEC : atlas.json (racine) diverge de data/atlas.json — relancer outils/fusionner.py")
 
     d = json.loads(octets_data)
-    pays = d["pays"]
+    pays = d["countries"]
 
     # Banc 2 — tout champ observé est documenté.
     champs = collections.Counter()
@@ -88,65 +92,65 @@ def principal():
 
     # Banc 3 — concordance avec SOURCES.md.
     with open(os.path.join(RACINE, "SOURCES.md"), encoding="utf-8") as f:
-        m = re.search(r"Compte de contrôle : (\d+) pays", f.read())
+        m = re.search(r"Control count: (\d+) countries", f.read())
     if not m or int(m.group(1)) != len(pays):
         sys.exit(f"ÉCHEC : SOURCES.md annonce {m.group(1) if m else '?'} pays, atlas.json en porte {len(pays)}")
 
     # Recensements (mesurés, jamais rédigés).
-    n_eff = sum(1 for p in pays if p.get("effectif") is not None)
-    grades = collections.Counter(p.get("qualite") for p in pays)
+    n_eff = sum(1 for p in pays if p.get("headcount") is not None)
+    grades = collections.Counter(p.get("grade") for p in pays)
     continents = collections.Counter(p.get("continent") for p in pays)
-    natures = collections.Counter(p.get("effectif_nature") for p in pays if p.get("effectif_nature"))
-    types_org = collections.Counter(p.get("type_organisme") for p in pays if p.get("type_organisme"))
+    natures = collections.Counter(p.get("headcount_source_type") for p in pays if p.get("headcount_source_type"))
+    types_org = collections.Counter(p.get("body_type") for p in pays if p.get("body_type"))
 
     L = []
-    L.append("# DONNÉES — schéma d'atlas.json")
+    L.append("# DATA — the schema of atlas.json")
     L.append("")
-    L.append("DÉRIVÉ de `data/atlas.json` par `outils/documenter.py` — NE PAS ÉDITER À LA MAIN.")
+    L.append("DERIVED from `data/atlas.json` by `outils/documenter.py` — DO NOT EDIT BY HAND.")
     L.append("")
-    L.append(f"Jeu servi à l'adresse stable **https://index.archi/atlas.json** (UTF-8, licence CC BY 4.0).")
-    L.append(f"Constitué le {d['meta']['constitue_le']}. **Compte de contrôle : {len(pays)} pays** "
-             f"(concorde avec SOURCES.md), {n_eff} effectifs sourcés, "
+    L.append("Dataset served at the stable address **https://index.archi/atlas.json** (UTF-8, CC BY 4.0).")
+    L.append(f"Compiled on {d['meta']['compiled_on']}. **Control count: {len(pays)} countries** "
+             f"(agrees with SOURCES.md), {n_eff} sourced headcounts, "
              f"A:{grades.get('A',0)} B:{grades.get('B',0)} C:{grades.get('C',0)} D:{grades.get('D',0)}.")
     L.append("")
     L.append("## Structure")
     L.append("")
-    L.append("| Bloc | Type | Contenu |")
+    L.append("| Block | Type | Contents |")
     L.append("|---|---|---|")
-    L.append(f"| `meta` | objet | date de constitution, périmètre visé ({d['meta']['pays_vises']} juridictions), méthode en {len(d['meta']['methode'])} points, revendication UIA |")
-    L.append(f"| `pays` | liste ({len(pays)}) | une entrée par pays — schéma ci-dessous |")
-    L.append(f"| `faitieres` | objet ({len(d['faitieres'])}) | organisations faîtières (UIA, ACE, CAA, AUA…) avec leurs revendications sourcées |")
-    L.append(f"| `catalogue` | liste ({len(d['catalogue'])}) | jeux de données publics recensés (éditeur, format, URL) |")
+    L.append(f"| `meta` | object | compilation date, targeted scope ({d['meta']['countries_targeted']} jurisdictions), method in {len(d['meta']['method'])} points, UIA claim |")
+    L.append(f"| `countries` | list ({len(pays)}) | one entry per country — schema below |")
+    L.append(f"| `umbrella_bodies` | object ({len(d['umbrella_bodies'])}) | umbrella organisations (UIA, ACE, CAA, AUA…) with their sourced claims |")
+    L.append(f"| `catalogue` | list ({len(d['catalogue'])}) | public datasets recorded (publisher, format, URL) |")
     L.append("")
-    L.append("## Champs d'une entrée `pays`")
+    L.append("## Fields of a `countries` entry")
     L.append("")
-    L.append("| Champ | Types | Renseigné | Description |")
+    L.append("| Field | Types | Filled | Description |")
     L.append("|---|---|---:|---|")
     for k in sorted(champs, key=lambda k: (-champs[k], k)):
         t, nuls = types_de([p.get(k) for p in pays if k in p])
         L.append(f"| `{k}` | {', '.join(t) or '—'} | {champs[k] - nuls}/{len(pays)} | {DESCRIPTIONS[k]} |")
     L.append("")
-    L.append("## Vocabulaires recensés")
+    L.append("## Vocabularies counted")
     L.append("")
-    L.append("**`qualite`** : " + " · ".join(f"{g} ({n})" for g, n in sorted(grades.items(), key=lambda x: x[0] or 'Z')))
+    L.append("**`grade`**: " + " · ".join(f"{g} ({n})" for g, n in sorted(grades.items(), key=lambda x: x[0] or 'Z')))
     L.append("")
-    L.append("**`continent`** : " + " · ".join(f"{c} ({n})" for c, n in continents.most_common()))
+    L.append("**`continent`**: " + " · ".join(f"{c} ({n})" for c, n in continents.most_common()))
     L.append("")
-    L.append("**`effectif_nature`** : " + " · ".join(f"`{c}` ({n})" for c, n in natures.most_common()))
+    L.append("**`headcount_source_type`**: " + " · ".join(f"`{c}` ({n})" for c, n in natures.most_common()))
     L.append("")
-    L.append("**`type_organisme`** : " + " · ".join(f"`{c}` ({n})" for c, n in types_org.most_common()))
+    L.append("**`body_type`**: " + " · ".join(f"`{c}` ({n})" for c, n in types_org.most_common()))
     L.append("")
-    L.append("## Lecture honnête")
+    L.append("## Reading this honestly")
     L.append("")
-    L.append("- Comparer des pays = comparer des **inscrits au registre officiel**, jamais des diplômés ni des praticiens de fait.")
-    L.append("- Les entrées portant `hors_echelle` restent affichées et sourcées mais sortent des sommes et des échelles.")
-    L.append(f"- **{grades.get('D',0)} pays sont en grade D** (estimation ou association seulement) : cette moitié du tableau est un plan de travail, pas un résultat.")
-    L.append("- Aucune donnée nominative dans ce jeu ni dans ce dépôt — les listes de personnes restent chez leurs éditeurs, liées par le catalogue.")
+    L.append("- Comparing countries = comparing **registrants on the official register**, never graduates and never de facto practitioners.")
+    L.append("- Entries carrying `out_of_scale` stay displayed and sourced but leave the totals and the scales.")
+    L.append(f"- **{grades.get('D',0)} countries are at grade D** (estimate or association only): that half of the table is a work plan, not a result.")
+    L.append("- No personal data in this dataset or in this repository — lists of named individuals stay with their publishers, linked from the catalogue.")
     L.append("")
 
-    with open(os.path.join(RACINE, "DONNEES.md"), "w", encoding="utf-8") as f:
+    with open(os.path.join(RACINE, "DATA.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(L))
-    print(f"OK — DONNEES.md dérivé : {len(champs)} champs documentés, {len(pays)} pays, "
+    print(f"OK — DATA.md dérivé : {len(champs)} champs documentés, {len(pays)} pays, "
           f"copies atlas.json identiques, concordance SOURCES.md.")
 
 if __name__ == "__main__":

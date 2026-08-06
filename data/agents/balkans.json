@@ -4,9 +4,9 @@
    "iso2": "RS",
    "pays": "Serbie",
    "continent": "Europe",
-   "organisme": "Inženjerska komora Srbije (registre national des licenciés, pour le compte du ministère MGSI)",
+   "organisme": "Inženjerska komora Srbije (national register of licence holders, on behalf of the MGSI ministry)",
    "sigle": "IKS",
-   "type_organisme": "chambre",
+   "type_organisme": "chamber",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
@@ -33,22 +33,22 @@
     }
    ],
    "qualite": "B",
-   "notes": "Depuis 2019 les licences (licencirani arhitekta) relèvent du MGSI ; l'IKS tient le Registar par convention (28.02.2020). Le registre compte 30 028 inscrits TOUTES professions (2021, presse) dont 14 892 actifs — les architectes ne sont pas ventilés publiquement, d'où effectif laissé vide (l'ACE 2024 estime 3 300 architectes). Recherche publique nominative, pas de liste massive ; rien sur data.gov.rs (API : 0 résultat). Deux domaines coexistent (ingkomora.rs / ingkomora.org.rs). Section UIA via l'UAS."
+   "notes": "Since 2019 licences (licencirani arhitekta) have come under the MGSI; the IKS maintains the Registar under an agreement of 28 February 2020. The register holds 30,028 registrants across ALL professions (2021, press), of whom 14,892 active — architects are not broken out publicly, hence the headcount left empty (the ACE’s 2024 estimate is 3,300 architects). Public search by name, no bulk list; nothing on data.gov.rs (API: 0 results). Two domains coexist (ingkomora.rs / ingkomora.org.rs). UIA section via the UAS."
   },
   {
    "iso2": "BA",
    "pays": "Bosnie-Herzégovine",
    "continent": "Europe",
-   "organisme": "Licences par entité : Federalno ministarstvo prostornog uređenja (FBiH) ; ministère RS ; Brčko à part",
+   "organisme": "Licensing by entity: Federalno ministarstvo prostornog uređenja (FBiH); RS ministry; Brčko separate",
    "sigle": "FMPU",
-   "type_organisme": "registre_etatique",
+   "type_organisme": "state_register",
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": false,
    "effectif": 226,
    "effectif_annee": 2026,
    "effectif_source_url": "https://fmpu.gov.ba/ovlastenja/fizicka-lica-osobe/",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://fmpu.gov.ba/ovlastenja/fizicka-lica-osobe/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -68,7 +68,7 @@
     }
    ],
    "qualite": "B",
-   "notes": "Compétence éclatée entre entités. FBiH : le FMPU publie une table nominative publique des autorisés — ≈2 157 personnes dont 226 en « Arhitektura » (comptage direct 08/2026) ; l'effectif affiché ne couvre QUE la Fédération. RS : licences ministérielles sans liste consolidée publique trouvée. Titre non protégé en tant que tel (autorisations d'activité). AABH (500+ membres, 1995) associative ; BiH absente de la liste des sections UIA. Ne jamais additionner FBiH+RS sans le dire."
+   "notes": "Competence split between the entities. FBiH: the FMPU publishes a public nominal table of authorised persons — ≈2,157 people, of whom 226 under “Arhitektura” (direct count, August 2026); the headcount shown covers ONLY the Federation. RS: ministerial licences, with no consolidated public list found. The title is not protected as such (activity authorisations). AABH (500+ members, 1995) is an association; BiH is absent from the list of UIA sections. Never add FBiH+RS together without saying so."
   },
   {
    "iso2": "ME",
@@ -76,14 +76,14 @@
    "continent": "Europe",
    "organisme": "Komora arhitekata i planera Crne Gore",
    "sigle": "KAIPCG",
-   "type_organisme": "chambre",
+   "type_organisme": "chamber",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 711,
    "effectif_annee": 2026,
    "effectif_source_url": "https://www.kaipcg.me/me/registar/registar-clanova-komore",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://www.kaipcg.me/me/registar/registar-clanova-komore",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://www.kaipcg.me/me/registar/registar-clanova-komore",
@@ -103,15 +103,15 @@
     }
    ],
    "qualite": "A",
-   "notes": "Réforme 2017 puis nouvelle loi : le « licencirani arhitekta » doit être inscrit au registre de la chambre (examen + 3 ans d'expérience). Registre public intégral en une page HTML : 758 membres au 05.08.2026, dont 708 « ARHITEKTA », 18 paysagistes, 7 planificateurs (comptage direct) ; pas d'export structuré. Pièges : l'IKCG subsiste pour les ingénieurs ; sacg.me mort (522) ; textes d'avant/après réforme contradictoires selon la date. CORRECTION 05.08.2026 (comptage direct des 738 fiches publiées) : 711 architectes — le 708 ne comptait que les fiches « ARHITEKTA » en MAJUSCULES (3 en minuscules ratées) ; + 18 paysagistes et 7 planificateurs en annexes ; le compteur « 758 membres » est élucidé : 738 actifs + 20 membres à adhésion suspendue (registre mirovanje dédié, zéro recoupement) ; le registre des 82 membres étrangers est une vue filtrée du principal (recoupement 82/82) ; les fiches individuelles ne portent pas de numéro de licence (vérifié)."
+   "notes": "The 2017 reform and then a new law: the “licencirani arhitekta” must be entered on the chamber’s register (examination + 3 years’ experience). Complete public register on a single HTML page: 758 members as at 5 August 2026, of whom 708 “ARHITEKTA”, 18 landscape architects, 7 planners (direct count); no structured export. Traps: the IKCG survives for engineers; sacg.me dead (522); texts from before and after the reform are contradictory depending on the date. CORRECTION 5 August 2026 (direct count of the 738 published records): 711 architects — the 708 counted only the records reading “ARHITEKTA” in CAPITALS (3 in lower case were missed); + 18 landscape architects and 7 planners in annexes; the “758 members” counter is explained: 738 active + 20 members with suspended membership (a dedicated mirovanje register, zero overlap); the register of 82 foreign members is a filtered view of the main one (82/82 matched); the individual records do not carry a licence number (verified)."
   },
   {
    "iso2": "MK",
    "pays": "Macédoine du Nord",
    "continent": "Europe",
-   "organisme": "Комора на овластени архитекти и овластени инженери (chambre commune architectes + ingénieurs)",
+   "organisme": "Комора на овластени архитекти и овластени инженери (joint chamber for architects + engineers)",
    "sigle": "KOAI",
-   "type_organisme": "chambre",
+   "type_organisme": "chamber",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
@@ -132,15 +132,15 @@
     }
    ],
    "qualite": "D",
-   "notes": "Chambre unique (Закон за градење, art. 39, fondée déc. 2007) : seuls les овластен архитект/инженер peuvent projeter/réviser/diriger ; adhésion et inscription au registre obligatoires après autorisation (50 EUR/an, 5 ans). ≈3 200 autorisations actives pour ≈7 000 membres TOUTES professions (page adhésion, non datée) — architectes non ventilés, d'où effectif vide. Le registre en ligne exige une connexion membre — pas de consultation publique."
+   "notes": "Single chamber (Закон за градење, art. 39, founded December 2007): only овластен архитект/инженер may design/review/supervise; membership and entry on the register are compulsory once authorised (EUR 50/year, 5 years). ≈3,200 active authorisations for ≈7,000 members across ALL professions (membership page, undated) — architects not broken out, hence the headcount left empty. The online register requires a member login — no public consultation."
   },
   {
    "iso2": "AL",
    "pays": "Albanie",
    "continent": "Europe",
-   "organisme": "Ministria e Infrastrukturës dhe Energjisë (licences individuelles et de sociétés pour projet/supervision)",
+   "organisme": "Ministria e Infrastrukturës dhe Energjisë (individual and company licences for design/supervision)",
    "sigle": "MIE",
-   "type_organisme": "registre_etatique",
+   "type_organisme": "state_register",
    "inscription_obligatoire": true,
    "titre_protege": false,
    "uia_membre": true,
@@ -161,22 +161,22 @@
     }
    ],
    "qualite": "B",
-   "notes": "Pas d'ordre en vigueur : le projet de loi « Urdhri i Arkitektit » était encore débattu fin 2025 (pétitions d'opposition). Licences professionnelles MIE (via e-Albania) ; titre non protégé. La page Regjistrat publie des PDF nominatifs (dont « Individë... studim e projektim », version 29.01.2025) mais les PDF sont derrière l'anti-bot Incapsula — comptage impossible, effectif null. Listes séparées individus/sociétés et projet/supervision ; les architectes n'y sont pas isolés d'office."
+   "notes": "No order in force: the “Urdhri i Arkitektit” bill was still under debate at the end of 2025 (petitions against it). MIE professional licences (through e-Albania); the title is not protected. The Regjistrat page publishes nominal PDFs (including “Individë... studim e projektim”, version of 29 January 2025), but the PDFs sit behind the Incapsula anti-bot — counting impossible, headcount null. Separate lists for individuals/companies and design/supervision; architects are not separated out there as a matter of course."
   },
   {
    "iso2": "XK",
    "pays": "Kosovo",
    "continent": "Europe",
-   "organisme": "Ministria e Mjedisit, Planifikimit Hapësinor dhe Infrastrukturës — regjistri i arkitektëve (inscription au registre ; licence professionnelle à venir avec l'Oda)",
+   "organisme": "Ministria e Mjedisit, Planifikimit Hapësinor dhe Infrastrukturës — regjistri i arkitektëve (entry on the register; professional licence to come with the Oda)",
    "sigle": "MMPHI",
-   "type_organisme": "registre_etatique",
+   "type_organisme": "state_register",
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": true,
    "effectif": 1133,
    "effectif_annee": 2023,
    "effectif_source_url": "https://mmphi.rks-gov.net/MMPHIFolder/OtherDocuments/REGJISTRI%20I%20ARKITEKT%C3%8BVE%20N%C3%8B%20FUSH%C3%8BN%20E%20ND%C3%8BRTIMIT.pdf",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://mmphi.rks-gov.net/LicensingProgram/LicensingProgram?type=1069",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://mmphi.rks-gov.net/MMPHIFolder/OtherDocuments/REGJISTRI%20I%20ARKITEKT%C3%8BVE%20N%C3%8B%20FUSH%C3%8BN%20E%20ND%C3%8BRTIMIT.pdf",
@@ -190,7 +190,7 @@
     }
    ],
    "qualite": "A",
-   "notes": "La loi 08/L-012 crée des chambres (Oda e Arkitektëve) en constitution — en attendant, licences et registre au ministère (UA 06-08/2023). Registre = PDF nominatif intégral (38 p., créé 19.09.2023) : 1 116 entrées comptées (1 109 e-mails uniques) — comptage d'après structure, non certifié. Pièges : le sigle AAK renvoie aussi à un parti politique ; vérifier si la chambre est opérationnelle depuis ; fraîcheur du PDF inconnue au-delà de 2023. CORRECTION 05.08.2026 (comptage direct du PDF) : 1 133 personnes (1 135 lignes, 2 inscrits imprimés deux fois ; références A/0001-A/1135 continues) ; le Shënim final précise que l'inscription NE confère PAS la Licence Profesionale (l'Oda n'est pas encore constituée) et le document ne contient AUCUNE catégorie A/B — l'ancien 1 116 « licenciés A et B » est invérifiable sur cette source."
+   "notes": "Law 08/L-012 creates chambers (Oda e Arkitektëve), currently being set up — in the meantime licences and the register sit with the ministry (UA 06-08/2023). The register = a complete nominal PDF (38 pp., created 19 September 2023): 1,116 entries counted (1,109 unique e-mails) — counted from the structure, not certified. Traps: the acronym AAK also refers to a political party; check whether the chamber has become operational since; the currency of the PDF is unknown beyond 2023. CORRECTION 5 August 2026 (direct count of the PDF): 1,133 persons (1,135 lines, 2 registrants printed twice; references A/0001-A/1135 continuous); the final Shënim states that entry on the register does NOT confer the Licence Profesionale (the Oda is not yet constituted) and the document contains NO A/B category — the earlier 1,116 “A and B licence holders” cannot be verified from this source."
   }
  ]
 }

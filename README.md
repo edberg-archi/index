@@ -28,9 +28,9 @@ labelled. Japan's kenchikushi figure is flagged non-comparable and excluded from
 | File | What |
 |---|---|
 | [`atlas.json`](https://index.archi/atlas.json) | complete dataset — meta, 180 countries, federations, open-data catalogue |
-| [`DONNEES.md`](DONNEES.md) | field-by-field schema (FR), **derived** from the dataset |
+| [`DATA.md`](DATA.md) | field-by-field schema, **derived** from the dataset |
 | [`SOURCES.md`](SOURCES.md) | one line per country with the source URL of each headcount |
-| [`LISEZMOI.md`](LISEZMOI.md) | the site's manual (FR) and how to rebuild everything |
+| [`MANUAL.md`](MANUAL.md) | the site's manual and how to rebuild everything |
 | [`llms.txt`](https://index.archi/llms.txt) | machine-readable entry point for AI agents |
 
 Rebuild: `python3 outils/carte.py && python3 outils/fusionner.py && python3 outils/documenter.py`
@@ -44,12 +44,18 @@ welcome and are credited. Every figure can be disputed against its source URL.
 
 ## Cite
 
-> Edberg Porporty (2026). *INDEX — Atlas mondial des ordres et registres
-> d'architectes*. Zenodo. https://doi.org/10.5281/zenodo.21819381
+> Edberg Porporty (2026). *INDEX — World atlas of architects' registration bodies*.
+> Zenodo. https://doi.org/10.5281/zenodo.21819381
 
 The DOI above is the **concept DOI**: it always resolves to the latest version.
-To cite this exact release, use `10.5281/zenodo.21819382` (v1.0.0).
+Each release also gets its own version DOI — `10.5281/zenodo.21819382` is v1.0.0.
 Machine-readable citation: [`CITATION.cff`](CITATION.cff).
+
+**Breaking change in v1.1.0** — `atlas.json` moved from French to English keys
+(`effectif` → `headcount`, `qualite` → `grade`, `pays` → `country`, and so on;
+the block `pays` became `countries`, `faitieres` became `umbrella_bodies`).
+Anything built against v1.0.0 must be updated; v1.0.0 remains archived and
+citable under its own DOI. The full field list is in [`DATA.md`](DATA.md).
 
 ---
 
@@ -63,6 +69,9 @@ Ce que l'atlas n'est pas : un annuaire nominatif — les listes de personnes res
 chez leurs éditeurs, liées, jamais copiées. **91 pays sont en grade D** : la moitié
 sud du tableau est un plan de travail, et le dit.
 
-Site en français, autonome, hors ligne : [`index.html`](index.html) — manuel dans
-[`LISEZMOI.md`](LISEZMOI.md). Compilation CC BY 4.0, Edberg Porporty (EDBERG.archi),
+Le site est publié **en anglais** — langue de publication de l'atlas, qui s'adresse à
+un lectorat international. Les noms d'organismes restent dans leur langue et chaque
+pays garde son nom français (`country_fr`) : la recherche fonctionne en français comme
+en anglais. Site autonome, hors ligne : [`index.html`](index.html) — manuel dans
+[`MANUAL.md`](MANUAL.md). Compilation CC BY 4.0, Edberg Porporty (EDBERG.archi),
 architecte DE-HMONP.

@@ -3,17 +3,17 @@
   {
    "iso2": "BR",
    "pays": "Brésil",
-   "continent": "Amériques",
+   "continent": "Americas",
    "organisme": "Conselho de Arquitetura e Urbanismo do Brasil",
    "sigle": "CAU/BR",
-   "type_organisme": "conseil",
+   "type_organisme": "council",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 244604,
    "effectif_annee": 2026,
    "effectif_source_url": "https://acheumarquiteto.caubr.gov.br/",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://acheumarquiteto.caubr.gov.br/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://transparencia.caubr.gov.br/dadosabertos/",
@@ -27,22 +27,22 @@
     }
    ],
    "qualite": "B",
-   "notes": "Lei 12.378/2010 (vérifiée) : registro obligatoire, exercice et titre protégés, RRT par projet. Compteur vivant vérifié le 05.08.2026 sur « Ache um Arquiteto » : 244 604 professionnels actifs (annuaire nominatif public). IGEO (igeo.caubr.gov.br) annonce « consulta, visualização e download » (article officiel 16.04.2025 : 236 085 architectes, 37 180 entreprises, 11,67 M de RRT). PIÈGE : caubr.gov.br et transparencia renvoient 403 aux robots/hors Brésil — l'export nominatif massif n'a pas pu être vérifié depuis l'étranger, d'où B et non A (très probablement disponible via IGEO/dados abertos). UIA : la section brésilienne est l'IAB, pas le CAU. Tentative du 05.08.2026 : igeo.caubr.gov.br ET transparencia.caubr.gov.br/dadosabertos répondent 403 hors du Brésil (vérifié) — la moisson nominative attendra un accès local ou une aide sur place."
+   "notes": "Lei 12.378/2010 (verified): compulsory registro, practice and title protected, one RRT per project. Live counter verified on 5 August 2026 on “Ache um Arquiteto”: 244,604 active professionals (public nominal directory). IGEO (igeo.caubr.gov.br) advertises “consulta, visualização e download” (official article of 16 April 2025: 236,085 architects, 37,180 firms, 11.67 M RRT). PITFALL: caubr.gov.br and transparencia return 403 to robots/from outside Brazil — the bulk nominal export could not be verified from abroad, hence B and not A (very probably available through IGEO/dados abertos). UIA: the Brazilian section is the IAB, not the CAU. Attempt of 5 August 2026: igeo.caubr.gov.br AND transparencia.caubr.gov.br/dadosabertos return 403 from outside Brazil (verified) — the nominal harvest will have to wait for local access or help on the ground."
   },
   {
    "iso2": "AR",
    "pays": "Argentine",
-   "continent": "Amériques",
-   "organisme": "Colegios et consejos provinciaux (24 juridictions), fédérés par la Federación Argentina de Entidades de Arquitectos",
+   "continent": "Americas",
+   "organisme": "Provincial colegios and consejos (24 jurisdictions), federated by the Federación Argentina de Entidades de Arquitectos",
    "sigle": "FADEA",
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 115000,
    "effectif_annee": 2023,
    "effectif_source_url": "https://www.arquitectosmisiones.org.ar/category/fadea/",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": "https://capsf.ar/tramites-online/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -62,13 +62,13 @@
     }
    ],
    "qualite": "B",
-   "notes": "Réglementation PAR PROVINCE : matrícula obligatoire dans chaque juridiction ; à Buenos Aires-ville, le CPAU (Decreto-Ley 6070/1958 ratifié Ley 14.467). Effectif : « 115 000 matriculados en todas las entidades » (1re réunion FADEA 2023, relayée par le colegio de Misiones ; 105 000 cités pendant la COVID). Pas de registre national unique : padrones publics PAR PROVINCE (vérifié : CAPSF Santa Fe ; Córdoba publie une liste mensuelle). PIÈGE : cpau.org est une SPA (toute URL répond 200). FADEA = section UIA ; fadea.org.ar ne publie aucun chiffre."
+   "notes": "Regulation PROVINCE BY PROVINCE: matrícula compulsory in each jurisdiction; in the City of Buenos Aires, the CPAU (Decreto-Ley 6070/1958 ratified by Ley 14.467). Headcount: “115,000 matriculados en todas las entidades” (first FADEA meeting of 2023, relayed by the Misiones colegio; 105,000 cited during COVID). No single national register: public padrones PROVINCE BY PROVINCE (verified: CAPSF Santa Fe; Córdoba publishes a monthly list). PITFALL: cpau.org is an SPA (every URL returns 200). FADEA = UIA section; fadea.org.ar publishes no figures."
   },
   {
    "iso2": "CL",
    "pays": "Chili",
-   "continent": "Amériques",
-   "organisme": "Colegio de Arquitectos de Chile (affiliation VOLONTAIRE depuis 1981)",
+   "continent": "Americas",
+   "organisme": "Colegio de Arquitectos de Chile (VOLUNTARY membership since 1981)",
    "sigle": "CA",
    "type_organisme": "association",
    "inscription_obligatoire": false,
@@ -91,22 +91,22 @@
     }
    ],
    "qualite": "D",
-   "notes": "CAS INVERSE documenté : le Decreto Ley 3.621 du 03.02.1981 (texte vérifié sur LeyChile) a transformé les colegios en associations gremiales et INTERDIT d'exiger l'affiliation pour exercer (art. 2). L'exercice repose sur le titre universitaire (contrôlé pour la signature des permis — d'où titre protégé). Le RNA « Registro Nacional de Arquitectos Colegiados » est consultable par RUT (registrocolegiados.cl, vérifié) mais ne couvre QUE les adhérents volontaires — grade D : aucun décompte de l'ensemble de la profession n'existe. Aucun effectif récent vérifiable. Section UIA : Colegio de Arquitectos de Chile."
+   "notes": "A documented REVERSE CASE: Decreto Ley 3.621 of 3 February 1981 (text verified on LeyChile) turned the colegios into asociaciones gremiales and PROHIBITED making membership a condition of practice (art. 2). Practice rests on the university degree (checked for the signing of permits — hence protected title). The RNA “Registro Nacional de Arquitectos Colegiados” can be searched by RUT (registrocolegiados.cl, verified) but covers ONLY voluntary members — grade D: no count of the profession as a whole exists. No recent headcount verifiable. UIA section: Colegio de Arquitectos de Chile."
   },
   {
    "iso2": "CO",
    "pays": "Colombie",
-   "continent": "Amériques",
+   "continent": "Americas",
    "organisme": "Consejo Profesional Nacional de Arquitectura y sus Profesiones Auxiliares",
    "sigle": "CPNAA",
-   "type_organisme": "conseil",
+   "type_organisme": "council",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 96335,
    "effectif_annee": 2025,
    "effectif_source_url": "https://www.cpnaa.gov.co/datos-abiertos-d68/",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://www.cpnaa.gov.co/consulta-del-registro-de-arquitectos-y-profesionales-auxiliares-de-la-arquitectura/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://www.datos.gov.co/d/pymi-7cgj",
@@ -120,35 +120,35 @@
     }
    ],
    "qualite": "B",
-   "notes": "Matrícula profesional nationale obligatoire (Ley 435 de 1998). 96 335 professionnels avec matrícula au 30.11.2025 (page Datos Abiertos du CPNAA, vérifiée ; 76 985 en 10/2019). Consultation par cédula via l'Oficina Virtual (compte requis) ; liste des sanctionnés publique. OPEN DATA réel : jeu Socrata sur datos.gov.co (pymi-7cgj, vérifié par API : 5 702 lignes, à jour 29.07.2026) — PIÈGE : ne couvre que les matrículas expédiées depuis le 01.01.2025 et anonymisé (pas de noms) ; + XLSX agrégé par département/genre. Flux : 3 848 matrículas expédiées en 2024. SCA = section UIA."
+   "notes": "Compulsory national matrícula profesional (Ley 435 de 1998). 96,335 professionals holding a matrícula as at 30 November 2025 (the CPNAA's Datos Abiertos page, verified; 76,985 in October 2019). Search by cédula through the Oficina Virtual (account required); list of those sanctioned public. Genuine OPEN DATA: Socrata dataset on datos.gov.co (pymi-7cgj, verified through the API: 5,702 rows, updated 29 July 2026) — PITFALL: it covers only the matrículas issued since 1 January 2025 and is anonymised (no names); + XLSX aggregated by department/gender. Annual flow: 3,848 matrículas issued in 2024. SCA = UIA section."
   },
   {
    "iso2": "PE",
    "pays": "Pérou",
-   "continent": "Amériques",
+   "continent": "Americas",
    "organisme": "Colegio de Arquitectos del Perú",
    "sigle": "CAP",
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 27000,
    "effectif_annee": 2023,
    "effectif_source_url": "https://constructivo.com/noticia/colegio-de-arquitectos-del-peru-tendra-nuevas-autoridades-a-nivel-nacional-1676470917",
-   "effectif_nature": "presse",
+   "effectif_nature": "press",
    "registre_url": "https://cap.org.pe/#buscador",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "B",
-   "notes": "Colegiación obligatoire (Ley 14085 de 1962, Ley 16053, Ley 28966). « Buscador de Arquitectos » national public (vérifié 05.08.2026, données à jour du jour ; API publique renvoyant colegiatura, noms, ESTADO d'habilitation, conseil régional). « Plus de 27 000 architectes » (Constructivo, 02/2023, vérifié). Un « Reporte del Agremiado » consolidé à mai 2026 existe mais diffusé via lnk.bio (bloqué aux robots). Distinguer colegiatura (inscription) et habilitación (à jour, requise pour signer)."
+   "notes": "Compulsory colegiación (Ley 14085 de 1962, Ley 16053, Ley 28966). National public “Buscador de Arquitectos” (verified 5 August 2026, data current to that day; public API returning colegiatura, names, habilitación ESTADO, regional council). “More than 27,000 architects” (Constructivo, February 2023, verified). A “Reporte del Agremiado” consolidated to May 2026 exists but is distributed through lnk.bio (blocked to robots). Distinguish colegiatura (registration) from habilitación (in good standing, required in order to sign)."
   },
   {
    "iso2": "EC",
    "pays": "Équateur",
-   "continent": "Amériques",
-   "organisme": "Colegio de Arquitectos del Ecuador (affiliation VOLONTAIRE depuis 2008)",
+   "continent": "Americas",
+   "organisme": "Colegio de Arquitectos del Ecuador (VOLUNTARY membership since 2008)",
    "sigle": "CAE",
    "type_organisme": "association",
    "inscription_obligatoire": false,
@@ -171,12 +171,12 @@
     }
    ],
    "qualite": "D",
-   "notes": "La colegiación obligatoire a été déclarée inconstitutionnelle (résolution 0038-2007-TC, 05.03.2008, confortée par la Constitution de 2008) : le CAE demeure mais l'affiliation est VOLONTAIRE. L'exercice repose sur le titre enregistré au registre national des titres (ex-SENESCYT, consultation par cédula, URL actuelle vérifiée). PIÈGES : registre toutes professions, consultation individuelle seulement (pas de liste ni décompte) ; cae.org.ec est le colegio provincial de Pichincha — pas de portail national (23 colegios provinciaux) ; « ~16 000 membres » circule sans source traçable — non retenu."
+   "notes": "Compulsory colegiación was declared unconstitutional (resolución 0038-2007-TC, 5 March 2008, reinforced by the 2008 Constitution): the CAE remains but membership is VOLUNTARY. Practice rests on the degree recorded in the national register of degrees (formerly SENESCYT, search by cédula, current URL verified). PITFALLS: an all-professions register, individual search only (no list and no count); cae.org.ec is the provincial colegio of Pichincha — no national portal (23 provincial colegios); “~16,000 members” circulates with no traceable source — not retained."
   },
   {
    "iso2": "UY",
    "pays": "Uruguay",
-   "continent": "Amériques",
+   "continent": "Americas",
    "organisme": "Sociedad de Arquitectos del Uruguay",
    "sigle": "SAU",
    "type_organisme": "association",
@@ -186,19 +186,19 @@
    "effectif": 2500,
    "effectif_annee": 2026,
    "effectif_source_url": "https://www.sau.org.uy/quienes-somos/",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": null,
    "registre_recherche_publique": null,
    "donnees_ouvertes_url": null,
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Pas d'ordre ni d'inscription obligatoire : le titre universitaire suffit. La SAU (1914, volontaire) déclare « más de 2 500 socios » (vérifié 2026) — effectif d'ASSOCIATION, pas de la profession. PIÈGE : son « Registro de Profesionales » est une bourse d'emploi volontaire, PAS un registre d'exercice. Décompte indirect possible via la caisse des professionnels (184 300 affiliés toutes professions, sans ventilation). Protection du titre non vérifiée."
+   "notes": "No professional order and no compulsory registration: the university degree suffices. The SAU (1914, voluntary) states “más de 2,500 socios” (verified 2026) — an ASSOCIATION headcount, not that of the profession. PITFALL: its “Registro de Profesionales” is a voluntary job board, NOT a register of practice. An indirect count is possible through the professionals' pension fund (184,300 affiliates across all professions, with no breakdown). Protection of the title not verified."
   },
   {
    "iso2": "PY",
    "pays": "Paraguay",
-   "continent": "Amériques",
+   "continent": "Americas",
    "organisme": "Asociación Paraguaya de Arquitectos",
    "sigle": "APAR",
    "type_organisme": "association",
@@ -215,22 +215,22 @@
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Pas d'ordre : l'APAR est une association volontaire — section UIA du Paraguay et membre FPAA. PIÈGE : apar.org.py ne résout plus (DNS mort, 08/2026), présence réseaux sociaux seulement — ne citer aucune URL APAR. Aucune statistique ni registre trouvés ; le contrôle de la signature passerait par des registres municipaux (non vérifié)."
+   "notes": "No professional order: the APAR is a voluntary association — Paraguay's UIA section and an FPAA member. PITFALL: apar.org.py no longer resolves (DNS dead, August 2026), social-media presence only — cite no APAR URL. No statistics and no register found; control of the signature would run through municipal registers (not verified)."
   },
   {
    "iso2": "BO",
    "pays": "Bolivie",
-   "continent": "Amériques",
+   "continent": "Americas",
    "organisme": "Colegio de Arquitectos de Bolivia — Registro Nacional de Arquitectos",
    "sigle": "CAB",
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 20000,
    "effectif_annee": 2026,
    "effectif_source_url": "https://cab.org.bo/",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": null,
    "registre_recherche_publique": false,
    "donnees_ouvertes_url": null,
@@ -244,15 +244,15 @@
     }
    ],
    "qualite": "C",
-   "notes": "Ley 1373 du 13.11.1992 (texte vérifié sur lexivox.org) : inscription OBLIGATOIRE au Registro Nacional de Arquitectos (art. 6-7) ; aucun projet n'a de validité légale sans signature d'un architecte habilité (art. 5). Le site officiel affiche « 20 000 Arquitectos Afiliados » — chiffre rond auto-déclaré, sans date ni méthode. Aucune consultation en ligne du RNA (grade C). Structure par colegios départementaux."
+   "notes": "Ley 1373 of 13 November 1992 (text verified on lexivox.org): registration in the Registro Nacional de Arquitectos is COMPULSORY (arts. 6-7); no project has legal validity without the signature of an authorised architect (art. 5). The official site displays “20,000 Arquitectos Afiliados” — a self-declared round figure, with neither date nor method. No online consultation of the RNA (grade C). Structured by departmental colegios."
   },
   {
    "iso2": "VE",
    "pays": "Venezuela",
-   "continent": "Amériques",
-   "organisme": "Colegio de Ingenieros de Venezuela (colegio COMMUN ingénieurs + architectes)",
+   "continent": "Americas",
+   "organisme": "Colegio de Ingenieros de Venezuela (colegio COMMON to engineers + architects)",
    "sigle": "CIV",
-   "type_organisme": "syndicat_ingenieurs",
+   "type_organisme": "engineers_union",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": false,
@@ -273,7 +273,7 @@
     }
    ],
    "qualite": "B",
-   "notes": "Loi de 1958 (Decreto 444, vérifié) : les architectes inscrivent leurs titres au CIV pour exercer (art. 18). Recherche publique par n° CIV ou cédula (civ.net.ve/buscar-datos, sans login, vérifié) — consultation individuelle : aucun décompte ni ventilation architectes/ingénieurs (effectif null). PIÈGE MAJEUR : l'ancien domaine du CAV (cav.org.ve) est détourné et sert un site de paris en ligne (constaté 08/2026) — ne citer aucune URL CAV. Pas de section UIA pour le Venezuela."
+   "notes": "Law of 1958 (Decreto 444, verified): architects record their qualifications with the CIV in order to practise (art. 18). Public search by CIV no. or cédula (civ.net.ve/buscar-datos, no login, verified) — individual lookups only: no count and no architects/engineers breakdown (headcount null). MAJOR PITFALL: the CAV's former domain (cav.org.ve) has been hijacked and serves an online betting site (observed August 2026) — cite no CAV URL. No UIA section for Venezuela."
   }
  ]
 }

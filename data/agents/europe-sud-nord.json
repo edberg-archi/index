@@ -6,14 +6,14 @@
    "continent": "Europe",
    "organisme": "Consiglio Nazionale degli Architetti, Pianificatori, Paesaggisti e Conservatori",
    "sigle": "CNAPPC",
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 154117,
    "effectif_annee": 2025,
    "effectif_source_url": "https://www.ingenio-web.it/articoli/pari-opportunita-nell-architettura-italiana-il-rapporto-cnappc-fotografa-il-gender-gap-e-offre-strumenti-operativi/",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": "https://albounico.awn.it/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -27,7 +27,7 @@
     }
    ],
    "qualite": "B",
-   "notes": "~100 ordres provinciaux fédérés par le CNAPPC ; l'Albo Unico Nazionale agrège tous les iscritti, recherche nominative (403 aux robots mais public au navigateur). 154 117 = rapport CNAPPC 2025 (70 473 femmes / 83 644 hommes) ; awn.it dit « oltre 155mila » ; ACE 2024 : 152 000. Aucun export en masse."
+   "notes": "~100 provincial orders federated by the CNAPPC; the Albo Unico Nazionale aggregates all iscritti and offers a search by name (403 to robots, but public in a browser). 154,117 = CNAPPC report 2025 (70,473 women / 83,644 men); awn.it says “oltre 155mila”; ACE 2024: 152,000. No bulk export."
   },
   {
    "iso2": "ES",
@@ -35,14 +35,14 @@
    "continent": "Europe",
    "organisme": "Consejo Superior de los Colegios de Arquitectos de España",
    "sigle": "CSCAE",
-   "type_organisme": "conseil",
+   "type_organisme": "council",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 50500,
    "effectif_annee": 2024,
    "effectif_source_url": "https://ace-cae.eu/wp-content/uploads/2025/04/2024-ACE-Sector-Study-EN-04042025.pdf",
-   "effectif_nature": "etude_sectorielle",
+   "effectif_nature": "sector_study",
    "registre_url": "https://www.cscae.com/index.php/ventanilla-unica/registro-arquitectos",
    "registre_recherche_publique": null,
    "donnees_ouvertes_url": null,
@@ -62,7 +62,7 @@
     }
    ],
    "qualite": "B",
-   "notes": "Colegiación obligatoire (Ley 2/1974 ; visa des projets) via les colegios régionaux, coiffés par le CSCAE. PIÈGE : aucun chiffre officiel consolidé publié (« no hay un dato oficial » — confirmé) ; effectif = estimation ACE 2024 (série : 47 600 en 2020, 50 000 en 2022). Recherche nominative publique au niveau des colegios ; le Registro national (Ventanilla Única) non vérifié comme moteur public."
+   "notes": "Colegiación compulsory (Ley 2/1974; visado of projects) through the regional colegios, headed by the CSCAE. PITFALL: no consolidated official figure is published (“no hay un dato oficial” — confirmed); headcount = ACE 2024 estimate (series: 47,600 in 2020, 50,000 in 2022). Public search by name at colegio level; the national Registro (Ventanilla Única) not verified as a public search engine."
   },
   {
    "iso2": "PT",
@@ -70,14 +70,14 @@
    "continent": "Europe",
    "organisme": "Ordem dos Arquitectos",
    "sigle": "OA",
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 28000,
    "effectif_annee": 2024,
    "effectif_source_url": "https://www.dnoticias.pt/2024/10/9/422739-ordem-dos-arquitectos-pondera-medidas-mais-duras-face-a-baixos-salarios-e-alta-emigracao/",
-   "effectif_nature": "presse",
+   "effectif_nature": "press",
    "registre_url": "https://portal.ordemdosarquitectos.org/directory/members",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -91,22 +91,22 @@
     }
    ],
    "qualite": "B",
-   "notes": "28 000 inscrits dont ~22 000 actifs (déclaration OA, presse 10/2024, ~800 entrées/an) ; ACE 2024 : 21 400 ≈ les actifs. Diretório public : recherche par nom, n°, section régionale, commune, statut. Pas d'export en masse."
+   "notes": "28,000 registrants, of whom ~22,000 are active (OA statement, press October 2024, ~800 new entrants a year); ACE 2024: 21,400 ≈ the active ones. Public diretório: search by name, number, regional section, municipality and status. No bulk export."
   },
   {
    "iso2": "GR",
    "pays": "Grèce",
    "continent": "Europe",
-   "organisme": "Τεχνικό Επιμελητήριο Ελλάδας (Chambre technique de Grèce)",
+   "organisme": "Τεχνικό Επιμελητήριο Ελλάδας (Technical Chamber of Greece)",
    "sigle": "TEE/TCG",
-   "type_organisme": "chambre",
+   "type_organisme": "chamber",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 20236,
    "effectif_annee": null,
    "effectif_source_url": "https://web.tee.gr/tmima-mitroon/meli-tee/",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://web.tee.gr/tmima-mitroon/meli-tee/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -120,7 +120,7 @@
     }
    ],
    "qualite": "B",
-   "notes": "RÉGIME PARTICULIER : architectes inscrits au TEE AVEC les ingénieurs — 122 154 membres en 15 spécialités, dont 20 236 « αρχιτέκτονες μηχανικοί » (page officielle non datée, consultée 08/2026). Licence d'exercice + inscription TEE obligatoires. Recherche nominative publique (Μητρώο). La section UIA est le TEE, pas SADAS. ACE 2024 : 17 000 — le registre TEE compte aussi des non-actifs."
+   "notes": "SPECIAL REGIME: architects registered with the TEE ALONGSIDE the engineers — 122,154 members across 15 specialities, of whom 20,236 are “αρχιτέκτονες μηχανικοί” (official page, undated, consulted August 2026). A practising licence plus TEE registration are both compulsory. Public search by name (Μητρώο). The UIA section is the TEE, not SADAS. ACE 2024: 17,000 — the TEE register also counts non-active members."
   },
   {
    "iso2": "MT",
@@ -135,7 +135,7 @@
    "effectif": 1157,
    "effectif_annee": 2025,
    "effectif_source_url": "https://peritiwarrant.gov.mt/wp-content/uploads/2026/04/Periti-Register-2025.pdf",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://peritiwarrant.gov.mt/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://peritiwarrant.gov.mt/wp-content/uploads/2026/04/Periti-Register-2025.pdf",
@@ -149,7 +149,7 @@
     }
    ],
    "qualite": "A",
-   "notes": "Profession unifiée « perit » (architecte + ingénieur civil). Periti Act (Cap. 622, 2021) : deux listes — Perit Arkitett (1 122 noms au 31.12.2025, comptés dans le PDF) et Perit Inġinier Ċivili (1 086), avec FORT recouvrement (ne pas additionner). Listes nominatives à la Gazette et en PDF téléchargeable. Le site gov bloque certains user-agents. Comptage direct de la gazette du 06.04.2026 (situation au 31.12.2025) le 05.08.2026 : 1 157 warrants Arkitett — l'ancien chiffre 1 122 correspondait exactement à la liste Inġinier Ċivili de la même gazette. 934 periti tiennent les deux warrants ; 1 345 personnes physiques distinctes ; 42 sociétés (P/44 imprimé deux fois). Série temporelle : gazette n° 445 du 26.04.2022 (Kap. 390, liste UNIQUE d'avant la scission) comptée le 05.08.2026 — 1 157 warrants nominatifs, 1 156 personnes au 31.12.2021, plus 15 warrants à numéro seul ; soit 1 156 personnes (2021) → 1 345 (2025)."
+   "notes": "A unified “perit” profession (architect + civil engineer). Periti Act (Cap. 622, 2021): two lists — Perit Arkitett (1,157 names as at 31 December 2025, counted in the gazette) and Perit Inġinier Ċivili (1,122), with HEAVY overlap (they must not be added together). Nominal lists in the Gazette and as a downloadable PDF. The government site blocks certain user agents. Direct count from the gazette of 06.04.2026 (position as at 31 December 2025), carried out on 5 August 2026: 1,157 Arkitett warrants — the earlier figure of 1,122 corresponded exactly to the Inġinier Ċivili list in the same gazette. 934 periti hold both warrants; 1,345 distinct natural persons; 42 companies (P/44 printed twice). Time series: gazette no. 445 of 26.04.2022 (Kap. 390, the SINGLE list predating the split), counted on 5 August 2026 — 1,157 named warrants, 1,156 individuals as at 31 December 2021, plus 15 warrants carrying a number only; that is, 1,156 individuals (2021) → 1,345 (2025)."
   },
   {
    "iso2": "CY",
@@ -157,14 +157,14 @@
    "continent": "Europe",
    "organisme": "Επιστημονικό Τεχνικό Επιμελητήριο Κύπρου (ETEK)",
    "sigle": "ETEK",
-   "type_organisme": "chambre",
+   "type_organisme": "chamber",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 3100,
    "effectif_annee": 2024,
    "effectif_source_url": "https://ace-cae.eu/wp-content/uploads/2025/04/2024-ACE-Sector-Study-EN-04042025.pdf",
-   "effectif_nature": "etude_sectorielle",
+   "effectif_nature": "sector_study",
    "registre_url": "https://www.etek.org.cy/el/mitrwa-melwn",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -178,7 +178,7 @@
     }
    ],
    "qualite": "B",
-   "notes": "Inscription à l'ETEK par branche (architecture) obligatoire ; catalogue public des membres. Pas de statistique par branche trouvée → effectif = ACE 2024 (révisé de 950 à 3 000 en 2022 après recalage sur le registre ETEK). ATTENTION : la section UIA est la Cyprus Civil Engineers & Architects Association (CCEAA), pas l'ETEK."
+   "notes": "Registration with the ETEK by branch (architecture) is compulsory; public catalogue of members. No per-branch statistic found → headcount = ACE 2024 (revised from 950 to 3,000 in 2022 after realignment with the ETEK register). CAUTION: the UIA section is the Cyprus Civil Engineers & Architects Association (CCEAA), not the ETEK."
   },
   {
    "iso2": "SM",
@@ -186,21 +186,21 @@
    "continent": "Europe",
    "organisme": "Ordine degli Ingegneri e degli Architetti della Repubblica di San Marino",
    "sigle": null,
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": false,
    "effectif": 45,
    "effectif_annee": 2026,
    "effectif_source_url": "https://www.archingsm.org/albo",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://www.archingsm.org/albo",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "B",
-   "notes": "Ordre mixte ingénieurs + architectes (Decreto 63/1995). Albo en ligne public, filtrable : 90 iscritti dont 45 « Architetto » (comptage 08/2026). Albo spécial pour non-résidents. Absent de l'UIA et hors périmètre ACE."
+   "notes": "A joint order of engineers + architects (Decreto 63/1995). The albo is public online and can be filtered: 90 iscritti, of whom 45 are “Architetto” (count of August 2026). A special albo for non-residents. Not in the UIA and out of ACE scope."
   },
   {
    "iso2": "SE",
@@ -215,14 +215,14 @@
    "effectif": 14022,
    "effectif_annee": 2025,
    "effectif_source_url": "https://arkitekten.se/nyheter/lagsta-antalet-medlemmar-i-sveriges-arkitekter-sedan-2021/",
-   "effectif_nature": "presse",
+   "effectif_nature": "press",
    "registre_url": null,
    "registre_recherche_publique": false,
    "donnees_ouvertes_url": null,
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Aucun ordre ni registre d'État : « arkitekt » n'est PAS un titre protégé. Seuls les titres de membre « Arkitekt SAR/MSA » (SIR, LAR, FPR) sont protégés via l'association. 14 022 membres en 09/2025 = architecture + intérieur + paysage + urbanisme, étudiants inclus ; 10 028 membres pleins ; ~90 % de la profession. ACE 2024 : 7 600 architectes-bâtiment. Pas d'annuaire individuel public."
+   "notes": "No professional order and no state register: “arkitekt” is NOT a protected title. Only the membership titles “Arkitekt SAR/MSA” (SIR, LAR, FPR) are protected, through the association. 14,022 members in September 2025 = architecture + interior + landscape + urban design, students included; 10,028 full members; ~90% of the profession. ACE 2024: 7,600 building architects. No public directory of individuals."
   },
   {
    "iso2": "NO",
@@ -237,14 +237,14 @@
    "effectif": 4400,
    "effectif_annee": 2024,
    "effectif_source_url": "https://snl.no/Norske_arkitekters_landsforbund",
-   "effectif_nature": "presse",
+   "effectif_nature": "press",
    "registre_url": null,
    "registre_recherche_publique": false,
    "donnees_ouvertes_url": null,
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "« Arkitekt » non protégé (snl.no : « ingen beskyttet tittel ») ; seul le grade académique l'est. MNAL = adhésion NAL. ~4 400 membres (2024) dont ~500 étudiants. PIÈGE : la « sentral godkjenning » (DiBK) agrée des ENTREPRISES, pas des personnes. ACE 2024 : 4 700. Autres listes : Arkitektbedriftene (employeurs), AFAG (syndicat)."
+   "notes": "“Arkitekt” is not protected (snl.no: “ingen beskyttet tittel”); only the academic degree is. MNAL = NAL membership. ~4,400 members (2024), of whom ~500 are students. PITFALL: the “sentral godkjenning” (DiBK) approves COMPANIES, not individuals. ACE 2024: 4,700. Other lists: Arkitektbedriftene (employers), AFAG (trade union)."
   },
   {
    "iso2": "DK",
@@ -259,7 +259,7 @@
    "effectif": 6000,
    "effectif_annee": null,
    "effectif_source_url": "https://arkitektforeningen.dk/organisation/",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": null,
    "registre_recherche_publique": false,
    "donnees_ouvertes_url": null,
@@ -273,7 +273,7 @@
     }
    ],
    "qualite": "D",
-   "notes": "« Arkitekt » est libre (FAQ de l'association) ; « arkitekt MAA » est le titre protégé de fait. « Cirka 6 000 medlemmer » (site, non daté, consulté 08/2026). Annuaire des membres consultable. ACE 2024 : 10 300 (inclut les non-MAA). Autres : FAOD (syndicat), Danske Arkitektvirksomheder (employeurs)."
+   "notes": "“Arkitekt” is unrestricted (the association’s FAQ); “arkitekt MAA” is the de facto protected title. “Cirka 6 000 medlemmer” (website, undated, consulted August 2026). The members’ directory can be searched. ACE 2024: 10,300 (includes non-MAA architects). Others: FAOD (trade union), Danske Arkitektvirksomheder (employers)."
   },
   {
    "iso2": "FI",
@@ -288,7 +288,7 @@
    "effectif": 3900,
    "effectif_annee": null,
    "effectif_source_url": "https://www.safa.fi/safa/",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": null,
    "registre_recherche_publique": false,
    "donnees_ouvertes_url": null,
@@ -302,15 +302,15 @@
     }
    ],
    "qualite": "D",
-   "notes": "Profession non réglementée : ni titre protégé ni inscription obligatoire — la compétence du concepteur est vérifiée PROJET PAR PROJET par l'autorité du permis. FISE Oy tient un registre volontaire public (76 titres de compétence). « 3 900 arkkitehtia ja arkkitehtiopiskelijaa » (site SAFA, étudiants inclus, non daté) ; ACE 2024 : 3 900 également."
+   "notes": "The profession is unregulated: neither a protected title nor compulsory registration — the designer’s competence is checked PROJECT BY PROJECT by the permit authority. FISE Oy maintains a public voluntary register (76 competence titles). “3 900 arkkitehtia ja arkkitehtiopiskelijaa” (SAFA website, students included, undated); ACE 2024: 3,900 as well."
   },
   {
    "iso2": "IS",
    "pays": "Islande",
    "continent": "Europe",
-   "organisme": "Ministère de l'Industrie — löggilding du titre « arkitekt » (loi n° 8/1996) ; HMS pour la löggilding des concepteurs",
+   "organisme": "Ministry of Industry — löggilding of the title “arkitekt” (Act no. 8/1996); HMS for the löggilding of designers",
    "sigle": null,
-   "type_organisme": "registre_etatique",
+   "type_organisme": "state_register",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
@@ -331,13 +331,13 @@
     }
    ],
    "qualite": "D",
-   "notes": "EXCEPTION nordique : le titre « arkitekt (húsameistari) » EST protégé (loi 8/1996, vérifiée sur althingi.is) — autorisation ministérielle, l'art. 6 impose un registre des autorisés, non trouvé en ligne. En parallèle, la HMS délivre la löggilding des concepteurs (loi 160/2010) — hms.is en 429 au test. Aucun effectif officiel publié ; AÍ ≈ 400 membres (contenus associatifs non datés). Hors périmètre ACE."
+   "notes": "A Nordic EXCEPTION: the title “arkitekt (húsameistari)” IS protected (Act 8/1996, verified on althingi.is) — ministerial authorisation, and art. 6 requires a register of those authorised, which was not found online. In parallel, the HMS issues the löggilding of designers (Act 160/2010) — hms.is returned 429 when tested. No official headcount published; AÍ ≈ 400 members (association content, undated). Out of ACE scope."
   },
   {
    "iso2": "EE",
    "pays": "Estonie",
    "continent": "Europe",
-   "organisme": "Eesti Arhitektide Liit — attributeur de la qualification « volitatud arhitekt », certificats au Kutseregister (registre d'État)",
+   "organisme": "Eesti Arhitektide Liit — awarding body for the “volitatud arhitekt” qualification, certificates held in the Kutseregister (state register)",
    "sigle": "EAL",
    "type_organisme": "association",
    "inscription_obligatoire": true,
@@ -346,7 +346,7 @@
    "effectif": 1000,
    "effectif_annee": 2024,
    "effectif_source_url": "https://ace-cae.eu/wp-content/uploads/2025/04/2024-ACE-Sector-Study-EN-04042025.pdf",
-   "effectif_nature": "etude_sectorielle",
+   "effectif_nature": "sector_study",
    "registre_url": "https://www.kutseregister.ee/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -360,22 +360,22 @@
     }
    ],
    "qualite": "B",
-   "notes": "Titre non protégé, mais l'ehitusseadustik exige une qualification (volitatud arhitekt tase 7/8, EAL attributeur) pour endosser la conception → inscription obligatoire pour EXERCER en responsabilité. Certificats consultables au Kutseregister public ; pas d'export vérifié. Effectif = ACE 2024. Absente de la liste des sections UIA (vérifiée)."
+   "notes": "The title is not protected, but the ehitusseadustik requires a qualification (volitatud arhitekt tase 7/8, awarded by the EAL) in order to take responsibility for a design → registration compulsory in order to PRACTISE under one’s own responsibility. Certificates can be consulted in the public Kutseregister; no export verified. Headcount = ACE 2024. Absent from the list of UIA sections (verified)."
   },
   {
    "iso2": "LV",
    "pays": "Lettonie",
    "continent": "Europe",
-   "organisme": "Certification par le centre de la Latvijas Arhitektu savienība ; registre d'État des būvspeciālisti dans le BIS (Būvniecības valsts kontroles birojs)",
+   "organisme": "Certification by the centre of the Latvijas Arhitektu savienība; state register of būvspeciālisti in the BIS (Būvniecības valsts kontroles birojs)",
    "sigle": "LAS/BIS",
-   "type_organisme": "registre_etatique",
+   "type_organisme": "state_register",
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": false,
    "effectif": 754,
    "effectif_annee": 2026,
    "effectif_source_url": "https://data.gov.lv/dati/lv/dataset/bis_tbsinntysqd_qjz6vpe_tw",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://bis.gov.lv/bisp/lv/specialist_certificates",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://data.gov.lv/dati/lv/dataset/bis_tbsinntysqd_qjz6vpe_tw",
@@ -389,22 +389,22 @@
     }
    ],
    "qualite": "A",
-   "notes": "Certificat de pratique obligatoire pour l'exercice indépendant (MK 169 du 20.03.2018) ; certification déléguée à la LAS, registre d'État public dans le BIS. MEILLEUR CAS EUROPÉEN : open data CC0, CSV quotidien (33 182 lignes toutes spécialités) — comptage du 05.08.2026 : 1 970 lignes « Arhitekta prakse » dont 758 certificats actifs = 754 personnes. ACE 2024 : 800 — concorde. C'est la pratique indépendante qui est réservée, pas le titre."
+   "notes": "A practice certificate is compulsory for independent practice (MK 169 of 20.03.2018); certification delegated to the LAS, public state register in the BIS. BEST CASE IN EUROPE: CC0 open data, daily CSV (33,182 rows across all specialities) — count of 5 August 2026: 1,970 “Arhitekta prakse” rows, of which 758 are active certificates = 754 individuals. ACE 2024: 800 — consistent. What is reserved is independent practice, not the title."
   },
   {
    "iso2": "LT",
    "pays": "Lituanie",
    "continent": "Europe",
-   "organisme": "Lietuvos architektų rūmai (Chambre des architectes de Lituanie)",
+   "organisme": "Lietuvos architektų rūmai (Lithuanian Chamber of Architects)",
    "sigle": "LAR",
-   "type_organisme": "chambre",
+   "type_organisme": "chamber",
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": false,
    "effectif": 1392,
    "effectif_annee": 2026,
    "effectif_source_url": "https://www.architekturumai.lt/wp-content/uploads/2026-06-25-LAR-sarasas-Nr.-247.pdf",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://www.architekturumai.lt/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://www.architekturumai.lt/wp-content/uploads/2026-06-25-LAR-sarasas-Nr.-247.pdf",
@@ -418,7 +418,7 @@
     }
    ],
    "qualite": "A",
-   "notes": "Chambre de droit public (loi 2006) des architectes ATTESTÉS — attestation et adhésion requises pour les actes réservés (Architektūros įstatymas, 2017). Liste nominative n° 247 du 25.06.2026 en PDF (272 p., qualifications et sanctions) : 1 392 attestats comptés. Pas de moteur interactif — liste téléchargeable seulement. ACE 2024 : 1 300 — concorde. Absente des sections UIA. Comptage direct du sąrašas (PDF 272 p.) le 05.08.2026 : les Atestatas numérotés font exactement 1 392 ; en tout 1 465 attestations pour 1 463 personnes (reconnaissances UE et lignes sans type comprises)."
+   "notes": "A chamber under public law (Act of 2006) for CERTIFIED architects — attestation and membership required for reserved acts (Architektūros įstatymas, 2017). Nominal list no. 247 of 25.06.2026 in PDF (272 pp., qualifications and sanctions): 1,392 attestations counted. No interactive search engine — a downloadable list only. ACE 2024: 1,300 — consistent. Absent from the UIA sections. Direct count of the sąrašas (272-page PDF) on 5 August 2026: the numbered Atestatas come to exactly 1,392; in all, 1,465 attestations for 1,463 individuals (including EU recognitions and rows with no type)."
   }
  ]
 }

@@ -6,14 +6,14 @@
    "continent": "Europe",
    "organisme": "Ordre des architectes — Conseil national de l'Ordre des architectes",
    "sigle": "CNOA",
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 29500,
    "effectif_annee": 2023,
    "effectif_source_url": "https://www.culture.gouv.fr/mc/content/download/391058/file/Chiffres%20cl%C3%A9s%202025_DEPS_Architecture_Fiche.pdf?inLanguage=fre-FR&version=1",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": "https://annuaire.architectes.org/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -27,7 +27,7 @@
     }
    ],
    "qualite": "B",
-   "notes": "Loi du 3 janvier 1977 : titre et exercice réservés aux inscrits au tableau (tenu par 17 conseils régionaux). Chiffre ministère de la Culture : « plus de 29 500 » en 2023 (source primaire : Archigraphie 2024 du CNOA) ; ACE 2024 : 30 600. Aucun jeu open data du tableau : recherche API data.gouv.fr = 0 résultat (vérifié 08/2026)."
+   "notes": "Law of 3 January 1977: title and practice reserved to those entered on the Order's register (kept by 17 regional councils). Ministry of Culture figure: “more than 29,500” in 2023 (primary source: the CNOA's Archigraphie 2024); ACE 2024: 30,600. No open data set of the Order's register: data.gouv.fr API search = 0 results (verified August 2026)."
   },
   {
    "iso2": "GB",
@@ -42,7 +42,7 @@
    "effectif": 38981,
    "effectif_annee": 2024,
    "effectif_source_url": "https://specificationonline.co.uk/articles/2025-07-11/architects-registration-board/arb-publishes-2024-annual-report-and-financial-statements",
-   "effectif_nature": "presse",
+   "effectif_nature": "press",
    "registre_url": "https://architects-register.org.uk/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -56,22 +56,22 @@
     }
    ],
    "qualite": "B",
-   "notes": "Architects Act 1997 : seul le TITRE est protégé, la fonction est libre. 38 981 inscrits fin 2024 (rapport annuel ARB 2024 cité par la presse ; l'ARB « 2024 Year in Review » donne 41 886 fin 2023) — chute due à ~2 468 radiations pour non-paiement en 2024. La section UIA est le RIBA (57 000 membres monde), pas l'ARB. Registre consultable mais pas d'export en masse."
+   "notes": "Architects Act 1997: only the TITLE is protected, the function itself is unrestricted. 38,981 registrants at the end of 2024 (ARB 2024 annual report as cited in the press; the ARB “2024 Year in Review” gives 41,886 at the end of 2023) — the fall is due to ~2,468 struck off for non-payment in 2024. The UIA section is the RIBA (57,000 members worldwide), not the ARB. The register is searchable but there is no bulk export."
   },
   {
    "iso2": "DE",
    "pays": "Allemagne",
    "continent": "Europe",
-   "organisme": "Bundesarchitektenkammer (fédération des 16 Länderarchitektenkammern)",
+   "organisme": "Bundesarchitektenkammer (federation of the 16 Länderarchitektenkammern)",
    "sigle": "BAK",
-   "type_organisme": "chambre",
+   "type_organisme": "chamber",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 142347,
    "effectif_annee": 2026,
    "effectif_source_url": "https://bak.de/kammer-und-beruf/daten-fakten/bundeskammerstatistik/",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": null,
    "registre_recherche_publique": false,
    "donnees_ouvertes_url": "https://bak.de/wp-content/uploads/2026/05/Bundeskammerstatistik-zum-01.01.2025-gesamt-1.pdf",
@@ -85,22 +85,22 @@
     }
    ],
    "qualite": "C",
-   "notes": "Piège fédéral : l'inscription se fait auprès de la chambre du LAND ; la BAK ne tient aucun registre. 142 347 membres au 1.1.2026 pour 4 professions confondues ; dont 115 664 Hochbauarchitekten au 1.1.2025 (PDF Bundeskammerstatistik, vérifié) ; ACE 2024 : 120 200. Pas de portail national de recherche : chaque chambre de Land offre son propre annuaire. Les PDF BAK sont des agrégats, pas des listes nominatives."
+   "notes": "Federal pitfall: registration is with the chamber of the LAND; the BAK keeps no register. 142,347 members as at 1 January 2026 across 4 professions taken together; of which 115,664 Hochbauarchitekten as at 1 January 2025 (Bundeskammerstatistik PDF, verified); ACE 2024: 120,200. No national search portal: each Land chamber offers its own directory. The BAK PDFs are aggregates, not nominal lists."
   },
   {
    "iso2": "BE",
    "pays": "Belgique",
    "continent": "Europe",
-   "organisme": "Ordre des architectes / Orde van Architecten (deux ailes : Vlaamse Raad et Conseil francophone et germanophone)",
+   "organisme": "Ordre des architectes / Orde van Architecten (two wings: Vlaamse Raad and Conseil francophone et germanophone)",
    "sigle": null,
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 14351,
    "effectif_annee": 2024,
    "effectif_source_url": "https://www.architect.be/sites/default/files/2025-06/Jaarverslag%202024_0.pdf",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": "https://vind.architect.be",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -120,7 +120,7 @@
     }
    ],
    "qualite": "B",
-   "notes": "Loi du 20.02.1939 (protection titre et profession) + loi du 26.06.1963 (Ordre). Au 31.12.2024 : 8 282 inscrits en Flandre + 6 069 côté francophone = 14 351 personnes physiques, HORS 1 597 stagiaires et 4 618 personnes morales (Jaarverslag 2024, vérifié) ; ACE : 15 900. Chiffres éclatés entre deux ailes linguistiques et dix conseils provinciaux ; la section UIA est la FAB, pas l'Ordre. Recherche publique aussi via ordredesarchitectes.be."
+   "notes": "Law of 20 February 1939 (protection of the title and of the profession) + law of 26 June 1963 (the Order). As at 31 December 2024: 8,282 registrants in Flanders + 6,069 on the French-speaking side = 14,351 natural persons, EXCLUDING 1,597 trainees and 4,618 legal persons (Jaarverslag 2024, verified); ACE: 15,900. Figures split between two linguistic wings and ten provincial councils; the UIA section is the FAB, not the Order. Public search also available via ordredesarchitectes.be."
   },
   {
    "iso2": "NL",
@@ -128,14 +128,14 @@
    "continent": "Europe",
    "organisme": "Bureau Architectenregister",
    "sigle": null,
-   "type_organisme": "registre_etatique",
+   "type_organisme": "state_register",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": false,
    "effectif": 10731,
    "effectif_annee": 2024,
    "effectif_source_url": "https://backend.architectenregister.nl/assets/pdf/architectenregister_jaarverslag_2024-11-mrt_def.pdf",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": "https://www.architectenregister.nl/zoek-een-architect",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -149,22 +149,22 @@
     }
    ],
    "qualite": "B",
-   "notes": "Wet op de architectentitel : seul le TITRE est protégé (4 titres distincts), l'acte de construire est libre. Fin 2024 : 10 731 « architect » sur 13 977 inscrits toutes disciplines (intérieur 1 530, paysage 826, urbanisme 890) — jaarverslag 2024 vérifié ; ACE : 10 500. Les Pays-Bas n'apparaissent PAS sur la liste des sections membres UIA (vérifiée 08/2026)."
+   "notes": "Wet op de architectentitel: only the TITLE is protected (4 distinct titles), the act of building is unrestricted. End of 2024: 10,731 “architect” out of 13,977 registrants across all disciplines (interior 1,530, landscape 826, urban planning 890) — jaarverslag 2024 verified; ACE: 10,500. The Netherlands does NOT appear on the list of UIA member sections (verified August 2026)."
   },
   {
    "iso2": "AT",
    "pays": "Autriche",
    "continent": "Europe",
-   "organisme": "Bundeskammer der Ziviltechniker:innen (4 chambres régionales, architectes + ingénieurs)",
+   "organisme": "Bundeskammer der Ziviltechniker:innen (4 regional chambers, architects + engineers)",
    "sigle": "BKZT",
-   "type_organisme": "chambre",
+   "type_organisme": "chamber",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 4718,
    "effectif_annee": 2025,
    "effectif_source_url": "https://bund.zt.at/kammer/ueber-uns/statistik-mitglieder",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": "https://ziviltechniker.at/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -178,22 +178,22 @@
     }
    ],
    "qualite": "B",
-   "notes": "Ziviltechnikergesetz 2019 : adhésion de plein droit à la chambre commune architectes + ingénieurs. Au 31.12.2025 : 4 718 architectes (3 181 en exercice, 1 537 en sommeil) sur 9 798 membres — page statistiques vérifiée ; ACE estimait 6 000. Ne pas confondre effectif total et autorisation (Befugnis) active."
+   "notes": "Ziviltechnikergesetz 2019: membership of the joint architects-and-engineers chamber follows automatically. As at 31 December 2025: 4,718 architects (3,181 in practice, 1,537 dormant) out of 9,798 members — statistics page verified; the ACE estimated 6,000. Do not confuse total headcount with an active authorisation (Befugnis)."
   },
   {
    "iso2": "CH",
    "pays": "Suisse",
    "continent": "Europe",
-   "organisme": "Aucun ordre national — REG (registres volontaires A/B/C, Fondation des Registres suisses) + régimes cantonaux GE/TI/VD",
+   "organisme": "No national professional order — REG (voluntary A/B/C registers, Fondation des Registres suisses) + cantonal regimes in GE/TI/VD",
    "sigle": "REG",
-   "type_organisme": "aucun",
+   "type_organisme": "none",
    "inscription_obligatoire": false,
    "titre_protege": false,
    "uia_membre": true,
    "effectif": 26700,
    "effectif_annee": 2024,
    "effectif_source_url": "https://ace-cae.eu/wp-content/uploads/2025/04/2024-ACE-Sector-Study-EN-04042025.pdf",
-   "effectif_nature": "etude_sectorielle",
+   "effectif_nature": "sector_study",
    "registre_url": "https://www.reg.ch/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -207,13 +207,13 @@
     }
    ],
    "qualite": "D",
-   "notes": "Titre non protégé au niveau fédéral, pas d'obligation nationale. REG = registres volontaires reconnus par la Confédération. Exceptions cantonales : GE (LPAI, registre des mandataires obligatoire), TI (LEPIA, inscription OTIA — liste publique otia.swiss), VD (LPrA 1966, REG A/B exigé pour signer les plans). Effectif = ACE 2024, révisé de 9 200 à 26 700 avec la Conférence Suisse des Architectes (CSA), qui est la section UIA."
+   "notes": "Title not protected at federal level, no national obligation. REG = voluntary registers recognised by the Confederation. Cantonal exceptions: GE (LPAI, compulsory register of appointed professionals), TI (LEPIA, OTIA registration — public list at otia.swiss), VD (LPrA 1966, REG A/B required to sign plans). Headcount = ACE 2024, revised from 9,200 to 26,700 with the Conférence Suisse des Architectes (CSA), which is the UIA section."
   },
   {
    "iso2": "IE",
    "pays": "Irlande",
    "continent": "Europe",
-   "organisme": "Royal Institute of the Architects of Ireland (organisme d'enregistrement statutaire)",
+   "organisme": "Royal Institute of the Architects of Ireland (statutory registration body)",
    "sigle": "RIAI",
    "type_organisme": "association",
    "inscription_obligatoire": true,
@@ -222,7 +222,7 @@
    "effectif": 3592,
    "effectif_annee": 2024,
    "effectif_source_url": "https://www.riai.ie/uploads/files/general-files/RIAI_Annual_Report_2024.pdf",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": "https://www.riai.ie/work-with-an-architect/register-of-architects",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -236,7 +236,7 @@
     }
    ],
    "qualite": "B",
-   "notes": "Building Control Act 2007 (partie 3) : titre protégé depuis 2007, RIAI désigné « Registration Body ». 3 592 architectes au registre au 31.12.2024 (rapport annuel vérifié) ; ~10 % de non-résidents ; ACE : 3 500. Double casquette institut + registre — le compte des « membres RIAI » (4 805) diffère du registre statutaire."
+   "notes": "Building Control Act 2007 (Part 3): title protected since 2007, RIAI designated “Registration Body”. 3,592 architects on the register as at 31 December 2024 (annual report verified); ~10% non-resident; ACE: 3,500. A dual role, institute + register — the count of “RIAI members” (4,805) differs from the statutory register."
   },
   {
    "iso2": "LU",
@@ -244,29 +244,29 @@
    "continent": "Europe",
    "organisme": "Ordre des Architectes et des Ingénieurs-Conseils",
    "sigle": "OAI",
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 511,
    "effectif_annee": 2026,
    "effectif_source_url": "https://www.oai.lu/",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://www.oai.lu/fr/9/topmenu/annuaire-membres/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "B",
-   "notes": "Loi du 13.12.1989 (réformée 2020) : ordre multi-professions. Site OAI (consulté 08/2026) : 511 architectes établis, 202 ingénieurs-conseils, 34 architectes d'intérieur, 154 urbanistes, 14 paysagistes. L'ACE estime 700 (inclut salariés/frontaliers hors annuaire des bureaux établis)."
+   "notes": "Law of 13 December 1989 (reformed in 2020): a multi-profession professional order. OAI site (consulted August 2026): 511 established architects, 202 consulting engineers, 34 interior architects, 154 town planners, 14 landscape architects. The ACE estimates 700 (including employed and cross-border architects who fall outside the directory of established practices)."
   },
   {
    "iso2": "LI",
    "pays": "Liechtenstein",
    "continent": "Europe",
-   "organisme": "Amt für Volkswirtschaft — autorisation d'exercer (Bauwesen-Berufe-Gesetz), registre professionnel d'État",
+   "organisme": "Amt für Volkswirtschaft — practice authorisation (Bauwesen-Berufe-Gesetz), state professional register",
    "sigle": null,
-   "type_organisme": "registre_etatique",
+   "type_organisme": "state_register",
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": false,
@@ -287,7 +287,7 @@
     }
    ],
    "qualite": "D",
-   "notes": "Micro-État sans chambre : licence étatique (Berufsbewilligung) portée au registre professionnel — la page officielle llv.li a répondu 403 au robot, aucune consultation publique vérifiable ; effectif introuvable. La LIA (~175 membres ingénieurs ET architectes confondus) n'est pas un organe d'inscription. Absent de la liste des sections UIA."
+   "notes": "A micro-state with no chamber: a state licence (Berufsbewilligung) entered on the professional register — the official llv.li page returned 403 to the crawler, and no public consultation could be verified; no headcount could be found. The LIA (~175 members, engineers AND architects taken together) is not a registration body. Absent from the list of UIA sections."
   },
   {
    "iso2": "MC",
@@ -295,21 +295,21 @@
    "continent": "Europe",
    "organisme": "Ordre des architectes de Monaco (Conseil de l'Ordre)",
    "sigle": null,
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": false,
    "effectif": 19,
    "effectif_annee": 2026,
    "effectif_source_url": "https://www.architectes-monaco.com/fr/presentation",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://journaldemonaco.gouv.mc/Journaux/2024/Journal-8713/TABLEAU-DU-CONSEIL-DE-L-ORDRE-DES-ARCHITECTES-Exercice-2023-2025",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://journaldemonaco.gouv.mc/Journaux/2024/Journal-8713/TABLEAU-DU-CONSEIL-DE-L-ORDRE-DES-ARCHITECTES-Exercice-2023-2025",
    "donnees_ouvertes_format": "PDF",
    "alternatives": [],
    "qualite": "A",
-   "notes": "Ordonnance-loi n° 341 du 24.03.1942 + Ordonnance souveraine 3.269 du 12.05.2011. Le tableau nominatif intégral est publié au Journal de Monaco (PDF du journal officiel) ; le site de l'Ordre annonce 19 architectes libéraux inscrits (08/2026). Catégories distinctes (libéraux, agréés, honoraires) ; pas de section UIA. Série temporelle : le Tableau de l'Ordre au JO n° 8713 (20.09.2024, exercice 2023-2025) compte 23 architectes par comptage direct (le JO les étiquette tous conseillers, les 4 du bureau recomptés) → 19 sur le site de l'Ordre en 2026."
+   "notes": "Ordonnance-loi No. 341 of 24.03.1942 + Ordonnance souveraine 3.269 of 12.05.2011. The complete nominal register is published in the Journal de Monaco (official gazette PDF); the Order's site announces 19 registered architectes libéraux (August 2026). Distinct categories (libéraux, agréés, honoraires); no UIA section. Time series: the Tableau de l'Ordre in JO No. 8713 (20.09.2024, 2023-2025 term) counts 23 architects by direct count (the JO labels them all as conseillers, the 4 of the bureau counted again) → 19 on the Order's site in 2026."
   },
   {
    "iso2": "AD",
@@ -317,21 +317,21 @@
    "continent": "Europe",
    "organisme": "Col·legi Oficial d'Arquitectes d'Andorra",
    "sigle": "COAA",
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": true,
    "effectif": 144,
    "effectif_annee": 2026,
    "effectif_source_url": "https://coaa.ad/llistat-darquitectes-en-exercici/",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://coaa.ad/llistat-darquitectes-en-exercici/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://coaa.ad/llistat-darquitectes-en-exercici/",
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "A",
-   "notes": "La « llista d'arquitectes en exercici » publie l'intégralité des inscrits en exercice (nom, adresse, n° de col·legiat) sur une page HTML — 94 entrées comptées le 05.08.2026 (numéros attribués jusqu'à 198 ; presse 2022 : ~138 col·legiats au total). Liste séparée pour les architectes de l'administration. Pas de CSV/PDF malgré la liste intégrale. Ne pas confondre avec le Col·legi d'Arquitectes Tècnics. CORRECTION 05.08.2026 (comptage direct) : 133 architectes en exercici — le 94 comptait le SEUL jeton masculin « Número de col·legiat » et ratait les 37 « col·legiada » (femmes) ; + 21 sans exercice, 15 técnics, 26 perits en annexes ; 7e liste « administració pública » vue au menu, non moissonnée. COMPLÉTÉ 05.08.2026 : 7e liste « arquitectes a l'administració pública » moissonnée — 11 architectes (Govern d'Andorra ×4, comuns ×7 ; 3 col·legiades), ZÉRO recoupement avec les six autres listes (leurs numéros comblent des trous de la série 1-198) ; effectif actif = 133 en exercici + 11 administration = 144, même règle que Tunisie/CI pour les agents publics."
+   "notes": "The “llista d'arquitectes en exercici” publishes all practising registrants in full (name, address, col·legiat number) on a single HTML page — 94 entries counted on 5 August 2026 (numbers issued up to 198; 2022 press: ~138 col·legiats in all). Separate list for architects in public administration. No CSV or PDF despite the list being complete. Not to be confused with the Col·legi d'Arquitectes Tècnics. CORRECTION 5 August 2026 (direct count): 133 architects en exercici — the 94 counted ONLY the masculine token “Número de col·legiat” and missed the 37 “col·legiada” (women); plus 21 not in practice, 15 técnics, 26 perits in annexes; a 7th list, “administració pública”, seen in the menu, not harvested. COMPLETED 5 August 2026: 7th list “arquitectes a l'administració pública” harvested — 11 architects (Govern d'Andorra ×4, comuns ×7; 3 col·legiades), ZERO overlap with the other six lists (their numbers fill gaps in the 1-198 series); active headcount = 133 en exercici + 11 in administration = 144, the same rule as Tunisia/CI for public servants."
   }
  ]
 }

@@ -4,12 +4,18 @@
 INDEX — fusion des moissons d'agents en un jeu unique, injecté dans index.html.
 
 Entrées : data/agents/*.json   (fichiers {"rows":[...]} par région + faitieres.json)
-Sorties : data/atlas.json      (jeu complet, avec méta)
-          index.html           (données injectées entre marqueurs)
+Sorties : data/atlas.json      (jeu complet publié, CLÉS ANGLAISES)
+          index.html           (données injectées entre marqueurs, clés internes)
           SOURCES.md           (dérivé du jeu — jamais rédigé à la main)
 
 Règle de la maison : le document qui décrit est DÉRIVÉ de la source ;
 SOURCES.md porte un compte qui doit concorder avec atlas.json.
+
+LANGUE (décidé le 06.08.2026) : la langue de PUBLICATION est l'anglais — tout ce
+qu'un lecteur voit, ici comme dans index.html. Le code et son schéma interne
+restent français, langue de travail de l'atelier ; la traduction se fait à la
+FRONTIÈRE, dans `en_anglais()`, au moment d'écrire atlas.json. Une seule table
+de clés, côté Python comme côté JS (constante CLES_EN d'index.html).
 """
 import json, glob, os, re, sys, datetime
 
@@ -17,7 +23,32 @@ RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOSSIER_AGENTS = os.path.join(RACINE, "data", "agents")
 CHEMIN_HTML = os.path.join(RACINE, "index.html")
 
-CONSTITUE_LE = "5 août 2026"
+CONSTITUE_LE = "6 August 2026"
+
+# Frontière de publication : schéma interne (français) → jeu publié (anglais).
+CLES_EN = {
+ "iso2":"iso2", "nom_en":"country", "pays":"country_fr", "continent":"continent",
+ "organisme":"body", "sigle":"acronym", "type_organisme":"body_type",
+ "inscription_obligatoire":"compulsory_registration", "titre_protege":"protected_title",
+ "uia_membre":"uia_member", "uia_section":"uia_section",
+ "effectif":"headcount", "effectif_annee":"headcount_year",
+ "effectif_nature":"headcount_source_type", "effectif_source_url":"headcount_source_url",
+ "ace_effectif_2024":"ace_headcount_2024",
+ "registre_url":"register_url", "registre_recherche_publique":"register_searchable",
+ "donnees_ouvertes_url":"open_data_url", "donnees_ouvertes_format":"open_data_format",
+ "alternatives":"alternative_lists", "population_m":"population_m",
+ "qualite":"grade", "hors_echelle":"out_of_scale", "notes":"notes",
+}
+CLES_META_EN = {"constitue_le":"compiled_on", "pays_vises":"countries_targeted",
+                "signature":"method_signature", "uia":"uia", "methode":"method"}
+
+def en_anglais(p, table):
+    """Renomme les clés d'un enregistrement pour la publication. Une clé absente
+    de la table sortirait en silence : on la garde telle quelle et on la signale."""
+    inconnues = [k for k in p if k not in table]
+    if inconnues:
+        print("  ! clés hors table de publication (laissées telles quelles) :", " ".join(inconnues))
+    return {table.get(k, k): v for k, v in p.items()}
 
 # Population ONU 2024, millions, arrondie — sert UNIQUEMENT à la densité indicative.
 POP_M = {
@@ -78,9 +109,9 @@ def croiser(lignes, faitieres):
             p["ace_effectif_2024"] = ace[iso]
             if p.get("effectif") is None:
                 p["effectif"] = ace[iso]; p["effectif_annee"] = 2024
-                p["effectif_nature"] = "etude_sectorielle"; p["effectif_source_url"] = ace_url
+                p["effectif_nature"] = "sector_study"; p["effectif_source_url"] = ace_url
                 p["notes"] = ((p.get("notes") or "") +
-                    " Effectif repris de l'étude sectorielle ACE 2024, l'organisme n'en publiant pas.").strip()
+                    " Headcount taken from the ACE 2024 sector study, the body itself publishing none.").strip()
                 if p.get("qualite") in (None, "", "D"): p["qualite"] = "C"
         if not p.get("qualite"): p["qualite"] = "D"
     return lignes
@@ -88,88 +119,109 @@ def croiser(lignes, faitieres):
 def catalogue_depuis(lignes, catalogue_local):
     vus = {(c.get("pays"), c.get("url")) for c in catalogue_local}
     cat = list(catalogue_local)
-    for p in sorted(lignes.values(), key=lambda x: x["pays"]):
-        if p.get("donnees_ouvertes_url") and (p["pays"], p["donnees_ouvertes_url"]) not in vus:
-            cat.append({"pays": p["pays"], "jeu": "Registre / données de " + (p.get("sigle") or p.get("organisme") or "l'organisme"),
+    for p in sorted(lignes.values(), key=lambda x: nom_publie(x)):
+        if p.get("donnees_ouvertes_url") and (nom_publie(p), p["donnees_ouvertes_url"]) not in vus:
+            cat.append({"pays": nom_publie(p), "jeu": "Register / data of " + (p.get("sigle") or p.get("organisme") or "the body"),
                         "format": p.get("donnees_ouvertes_format") or "—",
-                        "editeur": p.get("organisme"), "url": p["donnees_ouvertes_url"], "etat": "en ligne"})
+                        "editeur": p.get("organisme"), "url": p["donnees_ouvertes_url"], "etat": "online"})
     return cat
 
 CATALOGUE_LOCAL = [
- {"pays":"États-Unis — Texas","jeu":"Roster complet des architectes actifs (TBAE, temps réel)","format":"XLSX→CSV",
+ {"pays":"United States — Texas","jeu":"Full roster of active architects (TBAE, live)","format":"XLSX→CSV",
   "editeur":"Texas Board of Architectural Examiners",
-  "url":"https://indreg.tbae.texas.gov/Reports/RegistrantRosters","livre":"data/us-texas-tbae-architectes.csv (14 575 inscrits)"},
- {"pays":"Singapour","jeu":"Registre officiel des architectes (BOA) — donnée ouverte d'État","format":"CSV",
+  "url":"https://indreg.tbae.texas.gov/Reports/RegistrantRosters","livre":"data/us-texas-tbae-architectes.csv (14,575 registrants)"},
+ {"pays":"Singapore","jeu":"Official register of architects (BOA) — state open data","format":"CSV",
   "editeur":"Board of Architects via data.gov.sg",
-  "url":"https://data.gov.sg/datasets/d_d77de0f78ca589a5c61da7a60fdee6ba/view","livre":"data/sg-boa-registre-architectes.csv (1 999 inscrits)"},
- {"pays":"Europe (32 pays)","jeu":"ACE Sector Study 2024 — effectifs par pays (table 1-1)","format":"PDF",
+  "url":"https://data.gov.sg/datasets/d_d77de0f78ca589a5c61da7a60fdee6ba/view","livre":"data/sg-boa-registre-architectes.csv (1,999 registrants)"},
+ {"pays":"Europe (32 countries)","jeu":"ACE Sector Study 2024 — headcounts by country (table 1-1)","format":"PDF",
   "editeur":"Architects' Council of Europe","url":"https://ace-cae.eu/wp-content/uploads/2025/04/2024-ACE-Sector-Study-EN-04042025.pdf",
-  "etat":"extrait dans l'atlas"},
- {"pays":"Monde","jeu":"UIA — présentation officielle : 117 sections, ~745 665 architectes","format":"PDF",
-  "editeur":"Union internationale des architectes",
-  "url":"https://www.uia-architectes.org/wp-content/uploads/2025/02/2-2025-UIA-presentation.pdf","etat":"extrait dans l'atlas"},
+  "etat":"extracted into the atlas"},
+ {"pays":"World","jeu":"UIA — official presentation: 117 sections, ~745,665 architects","format":"PDF",
+  "editeur":"International Union of Architects",
+  "url":"https://www.uia-architectes.org/wp-content/uploads/2025/02/2-2025-UIA-presentation.pdf","etat":"extracted into the atlas"},
 ]
 
 def faitieres_site(f):
     u, a = f.get("uia", {}), f.get("ace", {})
     return [
-      {"sigle":"UIA","nom":"Union internationale des architectes — 5 régions, l'égide mondiale",
-       "url":u.get("membres_url"),"chiffre":f"<b>{u.get('sections_revendiquees','—')}</b> sections · <b class='num'>{format(u.get('architectes_revendiques',0),',').replace(',',' ')}</b> architectes revendiqués ({u.get('pays_revendiques','—')} pays)",
-       "note":"Présentation officielle, fév. 2025 — le « 3,2 M » parfois cité est introuvable dans les sources UIA."},
-      {"sigle":"ACE","nom":"Architects' Council of Europe — étude sectorielle biennale",
-       "url":a.get("etude_page"),"chiffre":f"<b class='num'>{format(a.get('total_architectes_europe',0),',').replace(',',' ')}</b> architectes en Europe-32 (2024)",
-       "note":"Table 1-1 reprise pays par pays dans l'atlas."},
+      {"sigle":"UIA","nom":"International Union of Architects — 5 regions, the global umbrella",
+       "url":u.get("membres_url"),"chiffre":f"<b>{u.get('sections_revendiquees','—')}</b> sections · <b class='num'>{format(u.get('architectes_revendiques',0),',')}</b> architects claimed ({u.get('pays_revendiques','—')} countries)",
+       "note":"Official presentation, February 2025 — the « 3.2 M » sometimes quoted is not found in any UIA source."},
+      {"sigle":"ACE","nom":"Architects' Council of Europe — biennial sector study",
+       "url":a.get("etude_page"),"chiffre":f"<b class='num'>{format(a.get('total_architectes_europe',0),',')}</b> architects in Europe-32 (2024)",
+       "note":"Table 1-1 taken country by country into the atlas."},
       {"sigle":"CAA","nom":"Commonwealth Association of Architects",
-       "url":f.get("caa",{}).get("url"),"chiffre":f"<b>{f.get('caa',{}).get('nb_membres_listes','—')}</b> instituts membres listés","note":None},
-      {"sigle":"AUA","nom":"Union africaine des architectes",
-       "url":f.get("aua",{}).get("url"),"chiffre":"<b>43</b> sections revendiquées · > 70 000 architectes","note":"Aucune liste nominative publiée en ligne."},
+       "url":f.get("caa",{}).get("url"),"chiffre":f"<b>{f.get('caa',{}).get('nb_membres_listes','—')}</b> member institutes listed","note":None},
+      {"sigle":"AUA","nom":"African Union of Architects",
+       "url":f.get("aua",{}).get("url"),"chiffre":"<b>43</b> sections claimed · > 70,000 architects","note":"No nominal list published online."},
       {"sigle":"FPAA","nom":"Federación Panamericana de Asociaciones de Arquitectos",
-       "url":f.get("fpaa",{}).get("url"),"chiffre":"<b>32</b> pays · « casi 1 millón de arquitectos »","note":"Revendication non ventilée ; aucune liste publiée."},
+       "url":f.get("fpaa",{}).get("url"),"chiffre":"<b>32</b> countries · « casi 1 millón de arquitectos »","note":"Claim not broken down; no list published."},
       {"sigle":"ARCASIA","nom":"Architects Regional Council Asia",
-       "url":f.get("arcasia",{}).get("url"),"chiffre":"<b>24</b> instituts membres (zones A, B, C)","note":None},
-      {"sigle":"UMAR","nom":"Union méditerranéenne des architectes",
-       "url":f.get("umar",{}).get("url"),"chiffre":"<b>14</b> pays membres","note":"Déclaration de Rabat, 1994."},
+       "url":f.get("arcasia",{}).get("url"),"chiffre":"<b>24</b> member institutes (zones A, B, C)","note":None},
+      {"sigle":"UMAR","nom":"Mediterranean Union of Architects",
+       "url":f.get("umar",{}).get("url"),"chiffre":"<b>14</b> member countries","note":"Rabat Declaration, 1994."},
     ]
 
 METHODE = [
- ["Ce que compte cet atlas",
-  "Des architectes INSCRITS auprès de l'organisme officiel de leur pays — pas des diplômés, pas des praticiens de fait. Quand l'inscription passe par un syndicat d'ingénieurs (glyphe ▤), l'effectif isolé de la division architecture est donné quand il existe."],
+ ["What this atlas counts",
+  "Architects REGISTERED with the official body of their country — not graduates, not de facto practitioners. Where registration runs through an engineers' union (glyph ▤), the architecture division's own headcount is given when one exists."],
  ["Grades A · B · C · D",
-  "A — liste nominative téléchargeable en masse (open data, roster, tableau publié). B — registre public consultable en ligne, sans téléchargement. C — effectif officiel publié, registre non consultable. D — estimation ou liste d'association seulement."],
- ["Recoupements",
-  "Chaque effectif est daté et sourcé (lien en fiche). Europe : recoupé avec l'étude sectorielle ACE 2024. Monde : adossé à la liste des 117 sections membres de l'UIA. Les listes alternatives (associations type RIBA/AIA, annuaires) sont données par pays."],
- ["Pièges connus",
-  "Japon : les ~370 000 kenchikushi de 1re classe incluent une majorité d'ingénieurs du bâtiment — le chiffre n'est pas comparable à un ordre d'architectes. Fédérations (États-Unis, Canada, Australie, Argentine, Allemagne…) : l'inscription est infranationale, l'agrégat vient de l'organe de coordination. Afrique du Sud : SACAP compte plusieurs catégories, seuls les « professional architects » sont retenus. Grèce et monde arabe : inscription mêlée aux ingénieurs."],
- ["Densité",
-  "Architectes pour 100 000 habitants, population ONU 2024 arrondie — un indicateur d'ordre de grandeur, pas une statistique fine."],
- ["Ce que cet atlas n'est pas",
-  "Un annuaire nominatif mondial. Les listes de personnes restent chez leurs éditeurs, liées ici ; les fichiers bruts moissonnés sont conservés hors du dépôt public (RGPD) — le catalogue garde le lien vers chaque source."],
+  "A — nominal list downloadable in bulk (open data, roster, published register). B — public register searchable online, no download. C — official headcount published, register not searchable. D — estimate or association list only."],
+ ["Cross-checks",
+  "Every headcount is dated and sourced (link in the record). Europe: cross-checked against the ACE 2024 sector study. World: set against the list of the UIA's 117 member sections. Alternative lists (associations such as RIBA or AIA, directories) are given country by country."],
+ ["Known traps",
+  "Japan: the ~370,000 first-class kenchikushi are mostly building engineers — the figure is not comparable to an architects' order. Federal states (United States, Canada, Australia, Argentina, Germany…): registration is subnational and the aggregate comes from the coordinating body. South Africa: SACAP counts several categories, only « professional architects » are retained. Greece and the Arab world: registration is merged with engineers."],
+ ["Density",
+  "Architects per 100,000 inhabitants, UN 2024 population rounded — an order-of-magnitude indicator, not a fine statistic."],
+ ["What this atlas is not",
+  "A worldwide directory of named individuals. Lists of people stay with their publishers and are linked from here; the raw harvested files are kept outside the public repository (GDPR) — the catalogue keeps the link to every source."],
 ]
 
 # Effectifs réels et sourcés, mais qui ne se comparent pas aux autres : ils sortent
 # du calcul d'échelle des jauges et des parts continentales, et le disent.
 HORS_ECHELLE = {
-  "JP": "stock cumulé de licences kenchikushi de 1re classe, jamais apuré et majoritairement "
-        "composé d'ingénieurs du bâtiment — ni un effectif d'ordre ni un effectif d'architectes",
+  "JP": "a cumulative stock of first-class kenchikushi licences, never cleared and made up "
+        "mostly of building engineers — neither an order's headcount nor a headcount of architects.",
 }
 
+# Le fonds Natural Earth nomme en cartographe ; un ouvrage de référence nomme
+# comme l'ONU et l'ISO 3166. Ces neuf-là se corrigent ICI, pour survivre à toute
+# régénération de carte.json — l'atlas décide des noms qu'il publie.
+NOMS_EN = {
+ "CI":"Côte d'Ivoire",   # forme officielle anglaise, demandée par le pays
+ "CZ":"Czechia",         # nom court ISO depuis 2016
+ "TL":"Timor-Leste",     # forme ONU
+ "CV":"Cabo Verde",      # forme ONU depuis 2013
+ "TR":"Türkiye",         # forme ONU depuis 2022
+ "CN":"China",           # nom court, pas la forme longue du fonds de carte
+ "US":"United States",
+ "BS":"Bahamas",
+ "GM":"Gambia",
+}
+
+def nom_publie(p):
+    """Le nom d'usage de la publication est l'anglais ; `pays` (français) ne sert
+    plus qu'à la recherche. Les deux coïncident pour 58 pays (Angola, Canada…)."""
+    return p.get("nom_en") or p.get("pays")
+
 def enrichir(pays):
-    """Ajoute ce que le site seul ne peut pas déduire : nom anglais (recherche) et hors-échelle."""
+    """Ajoute ce que le site seul ne peut pas déduire : nom anglais et hors-échelle.
+    `nom_en` est TOUJOURS posé — sinon la colonne « country » de l'export sortirait
+    vide pour les 58 pays dont le nom français est déjà l'anglais."""
     chemin = os.path.join(RACINE, "data", "carte.json")
     noms_en = {}
     if os.path.exists(chemin):
         noms_en = json.load(open(chemin, encoding="utf-8")).get("en", {})
-    manquants = []
+    repris = []
     for p in pays:
-        en = noms_en.get(p["iso2"])
-        if en and en != p["pays"]:
-            p["nom_en"] = en
-        elif not en:
-            manquants.append(p["iso2"])
+        en = NOMS_EN.get(p["iso2"]) or noms_en.get(p["iso2"])
+        p["nom_en"] = en or p["pays"]
+        if not en:
+            repris.append(p["iso2"])
         if p["iso2"] in HORS_ECHELLE:
             p["hors_echelle"] = HORS_ECHELLE[p["iso2"]]
-    if manquants:
-        print("  ! sans nom anglais (recherche dégradée) :", " ".join(manquants))
+    if repris:
+        print(f"  · {len(repris)} pays sans nom anglais au fonds de carte — nom français repris tel quel")
     return pays
 
 def injecter(html, marqueur_debut, marqueur_fin, contenu_json):
@@ -191,14 +243,18 @@ def principal():
     meta = {
       "constitue_le": CONSTITUE_LE,
       "pays_vises": 197,
-      "signature": "recherche parallèle multi-agents + vérification des sources primaires",
+      "signature": "parallel multi-agent research + verification against primary sources",
       "uia": {"sections": (faitieres or {}).get("uia",{}).get("sections_revendiquees"),
               "architectes_revendiques": (faitieres or {}).get("uia",{}).get("architectes_revendiques")},
       "methode": METHODE,
     }
     # atlas.json — data/ (travail) + racine (copie canonique, servie sur https://index.archi/atlas.json ;
-    # même script, même dump : les deux ne peuvent pas diverger)
-    atlas = {"meta":meta,"pays":pays,"faitieres":faitieres,"catalogue":cat}
+    # même script, même dump : les deux ne peuvent pas diverger).
+    # C'est l'artefact PUBLIÉ : il sort avec les noms de champs anglais.
+    atlas = {"meta": en_anglais(meta, CLES_META_EN),
+             "countries": [en_anglais(p, CLES_EN) for p in pays],
+             "umbrella_bodies": faitieres,
+             "catalogue": cat}
     for chemin_atlas in (os.path.join(RACINE,"data","atlas.json"), os.path.join(RACINE,"atlas.json")):
         with open(chemin_atlas,"w",encoding="utf-8") as f:
             json.dump(atlas, f, ensure_ascii=False, indent=1)
@@ -218,15 +274,15 @@ def principal():
     n_eff = sum(1 for p in pays if p.get("effectif") is not None)
     n_a = sum(1 for p in pays if p.get("qualite")=="A"); n_b = sum(1 for p in pays if p.get("qualite")=="B")
     lignes_md = [
-      "# SOURCES — dérivé de data/atlas.json par outils/fusionner.py — NE PAS ÉDITER À LA MAIN",
-      f"\nConstitué le {CONSTITUE_LE}. **Compte de contrôle : {len(pays)} pays** (doit concorder avec atlas.json), "
-      f"{n_eff} effectifs sourcés, {n_a} grade A, {n_b} grade B.\n",
-      "| Pays | Organisme | Effectif | Année | Nature | Source |",
+      "# SOURCES — derived from data/atlas.json by outils/fusionner.py — DO NOT EDIT BY HAND",
+      f"\nCompiled on {CONSTITUE_LE}. **Control count: {len(pays)} countries** (must agree with atlas.json), "
+      f"{n_eff} sourced headcounts, {n_a} at grade A, {n_b} at grade B.\n",
+      "| Country | Body | Headcount | Year | Source type | Source |",
       "|---|---|---:|---|---|---|",
     ]
     for p in pays:
         src = p.get("effectif_source_url") or ""
-        lignes_md.append(f"| {p['pays']} | {p.get('organisme') or '—'} | {p.get('effectif') if p.get('effectif') is not None else '—'} "
+        lignes_md.append(f"| {nom_publie(p)} | {p.get('organisme') or '—'} | {p.get('effectif') if p.get('effectif') is not None else '—'} "
                          f"| {p.get('effectif_annee') or '—'} | {p.get('effectif_nature') or '—'} | {src} |")
     with open(os.path.join(RACINE,"SOURCES.md"),"w",encoding="utf-8") as f:
         f.write("\n".join(lignes_md)+"\n")

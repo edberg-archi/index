@@ -3,7 +3,7 @@
   {
    "iso2": "NG",
    "pays": "Nigeria",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Architects Registration Council of Nigeria",
    "sigle": "ARCON",
    "type_organisme": "board",
@@ -13,7 +13,7 @@
    "effectif": 4926,
    "effectif_annee": 2021,
    "effectif_source_url": "https://punchng.com/arcon-registers-694-architects-in-three-years/",
-   "effectif_nature": "presse",
+   "effectif_nature": "press",
    "registre_url": "https://register.arconigeria.gov.ng/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -27,12 +27,12 @@
     }
    ],
    "qualite": "B",
-   "notes": "Board créé par le décret 10 de 1969 (Architects Act Cap A19 LFN 2004) ; distinct de la NIA (association 1960, ~12 000 membres tous grades, section UIA ; conflit ARCON-NIA 2022 résolu). 4 926 inscrits annoncés par le président ARCON en juillet 2021 ; inductions massives depuis (526 en 2025) donc effectif réel supérieur. Page « Register of Architects and Architectural Firms » sans PDF public ; portail de vérification en ligne opérationnel. Catégories : architectes, technologues, firmes."
+   "notes": "Board created by Decree 10 of 1969 (Architects Act Cap A19 LFN 2004); distinct from the NIA (association founded 1960, ~12,000 members across all grades, UIA section; the 2022 ARCON-NIA conflict resolved). 4,926 registrants announced by the ARCON president in July 2021; mass inductions since (526 in 2025), so the actual headcount is higher. “Register of Architects and Architectural Firms” page with no public PDF; online verification portal operational. Categories: architects, technologists, firms."
   },
   {
    "iso2": "GH",
    "pays": "Ghana",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Architects Registration Council",
    "sigle": "ARC",
    "type_organisme": "board",
@@ -42,7 +42,7 @@
    "effectif": 744,
    "effectif_annee": 2026,
    "effectif_source_url": "https://www.arc.gov.gh/architects-in-good-standing-2026/",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://www.arc.gov.gh/architects-in-good-standing-2026/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://www.arc.gov.gh/architects-in-good-standing-2026/",
@@ -56,12 +56,12 @@
     }
    ],
    "qualite": "A",
-   "notes": "Board d'État sous l'Architects Act 1969 (NLCD 357). Liste nominative complète en ligne : 744 architectes en règle au 30.04.2026, numérotés 1-744 (page web) ; l'accueil affiche le cumul 1 429+ licenciés, 258+ firmes, 200+ probationers ; rapport 2023 : 1 270 inscrits dont 650 en règle — bien distinguer cumul et en-règle. GIA = section UIA. Confirmé par comptage direct le 05.08.2026 : 744 exactement (rangs 1-744 continus, double contrôle) ; + 111 cabinets et 164 stagiaires PPE en annexes du corpus."
+   "notes": "State board under the Architects Act 1969 (NLCD 357). Complete nominal list online: 744 architects in good standing as at 30 April 2026, numbered 1-744 (web page); the home page displays the cumulative totals 1,429+ licensed professionals, 258+ firms, 200+ probationers; 2023 report: 1,270 registrants, of whom 650 in good standing — the cumulative total and the in-good-standing figure must be carefully distinguished. GIA = UIA section. Confirmed by direct count on 5 August 2026: 744 exactly (ranks 1-744 continuous, double-checked); + 111 practices and 164 PPE trainees in the corpus annexes."
   },
   {
    "iso2": "KE",
    "pays": "Kenya",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Board of Registration of Architects and Quantity Surveyors",
    "sigle": "BORAQS",
    "type_organisme": "board",
@@ -71,7 +71,7 @@
    "effectif": 1226,
    "effectif_annee": 2025,
    "effectif_source_url": "https://boraqs.or.ke/wp-content/uploads/2025/03/List-of-Persons-and-Firms-in-good-standing-as-at-31st-January-2025.pdf",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://boraqs.or.ke/registered/architects",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://boraqs.or.ke/wp-content/uploads/2025/03/List-of-Persons-and-Firms-in-good-standing-as-at-31st-January-2025.pdf",
@@ -85,12 +85,12 @@
     }
    ],
    "qualite": "A",
-   "notes": "Board sous le Cap 525 ; registre architectes ET quantity surveyors — ne compter que les architectes. Comptage direct de la Gazette Notice n° 2595 du 07.02.2025 (PDF officiel, en règle au 31.01.2025) le 05.08.2026 : 1 226 architectes — S/No continus 1-1226, deux coquilles de la gazette (« Arh. », un titre manquant) vérifiées à la main. Corrige le décompte 699 pris sur l'index du site (recoupement prévu dès la moisson initiale). Même gazette : 833 quantity surveyors (n° 2596), 263 cabinets d'architecture (n° 2597), 166 cabinets de métré (n° 2598). AAK (1967, 8 chapitres, annuaire members.aak.or.ke/directory) = section UIA."
+   "notes": "Board under Cap 525; register covering architects AND quantity surveyors — count only the architects. Direct count of Gazette Notice no. 2595 of 07.02.2025 (official PDF, in good standing as at 31 January 2025), carried out on 5 August 2026: 1,226 architects — S/No continuous 1-1226, two misprints in the gazette (“Arh.”, one missing title) checked by hand. This corrects the count of 699 taken from the site index (a cross-check planned from the initial harvest onwards). Same gazette: 833 quantity surveyors (no. 2596), 263 architectural practices (no. 2597), 166 quantity surveying practices (no. 2598). AAK (1967, 8 chapters, directory members.aak.or.ke/directory) = UIA section."
   },
   {
    "iso2": "UG",
    "pays": "Ouganda",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Architects Registration Board",
    "sigle": "ARB",
    "type_organisme": "board",
@@ -100,7 +100,7 @@
    "effectif": 269,
    "effectif_annee": 2026,
    "effectif_source_url": "https://arbuganda.go.ug/wp-content/uploads/2026/06/Architects-List-for-2026.Final_.pdf",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://arbuganda.go.ug/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://arbuganda.go.ug/wp-content/uploads/2026/06/Architects-List-for-2026.Final_.pdf",
@@ -114,12 +114,12 @@
     }
    ],
    "qualite": "A",
-   "notes": "Board statutaire (Architects Registration Act 1996). PDF « Architects List for 2026 » (05.06.2026) compté : 273 architectes (numéros 002 à 404, registre à trous), avec Practicing Certificate, qualifications, contacts. Portail membres myarb.info. USA = section UIA. CORRECTION 05.08.2026 (comptage direct du PDF « Architects List for 2026 ») : 269 praticiens munis du certificat 2026 — Reg/No à vie 002-404 avec 134 trous (inscrits sans certificat), second dénombrement par PC/No 26xxx (269 = 269) ; l'ancien 273 venait d'une édition antérieure de la même liste vivante."
+   "notes": "Statutory board (Architects Registration Act 1996). PDF “Architects List for 2026” (5 June 2026) counted: 269 architects (numbers 002 to 404, register with gaps), with Practicing Certificate, qualifications and contact details. Members’ portal myarb.info. The Uganda Society of Architects (USA) is the UIA section. CORRECTION 5 August 2026 (direct count of the PDF “Architects List for 2026”): 269 practitioners holding the 2026 certificate — lifetime Reg/No 002-404 with 134 gaps (registrants without a certificate), second count by PC/No 26xxx (269 = 269); the earlier 273 came from a previous edition of the same living list."
   },
   {
    "iso2": "TZ",
    "pays": "Tanzanie",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Architects and Quantity Surveyors Registration Board",
    "sigle": "AQRB",
    "type_organisme": "board",
@@ -129,7 +129,7 @@
    "effectif": 693,
    "effectif_annee": 2026,
    "effectif_source_url": "https://ors.aqrb.go.tz/professionals_list",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://ors.aqrb.go.tz/professionals_list",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://ors.aqrb.go.tz/professionals_list",
@@ -143,22 +143,22 @@
     }
    ],
    "qualite": "A",
-   "notes": "Board sous l'Act n° 4/2010 (Cap 269), siège Dodoma. Liste publique intégrale sur le portail ORS, comptée par crawl : 1 944 professionnels dont 693 architectes (960 QS, 94 technologues, 35 architectes d'intérieur…) — ne compter que les 693. AAT = section UIA. Confirmé par comptage direct le 05.08.2026 (crawl des 6 pages ORS) : 693 exactement (671 Local + 22 Foreign) sur 1 944 professionnels du Board — dont 961 quantity surveyors, en annexes du corpus."
+   "notes": "Board under Act no. 4/2010 (Cap 269), seat in Dodoma. Complete public list on the ORS portal, counted by crawling: 1,944 professionals, of whom 693 architects (960 QS, 94 technologists, 35 interior architects…) — count only the 693. AAT = UIA section. Confirmed by direct count on 5 August 2026 (crawl of the 6 ORS pages): 693 exactly (671 Local + 22 Foreign) out of the Board’s 1,944 professionals — of which 961 quantity surveyors, in the corpus annexes."
   },
   {
    "iso2": "ZA",
    "pays": "Afrique du Sud",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "South African Council for the Architectural Profession",
    "sigle": "SACAP",
-   "type_organisme": "conseil",
+   "type_organisme": "council",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 4418,
    "effectif_annee": 2024,
    "effectif_source_url": "https://pmg.org.za/files/2023-24-south-african-council-for-the-architectural-profession-sacap-annual-report.pdf",
-   "effectif_nature": "rapport_officiel",
+   "effectif_nature": "official_report",
    "registre_url": "https://search.mymembership.co.za/Search/?Id=4f3f0fde-d5dc-4af0-97cd-0a192a56830e",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -172,12 +172,12 @@
     }
    ],
    "qualite": "B",
-   "notes": "Conseil statutaire (Architectural Profession Act 44 of 2000). PIÈGE de catégories : rapport 2023/24 = 11 564 inscrits TOUTES catégories : 4 418 Professional Architects, 1 931 Senior Technologists, 1 116 Technologists, 1 371 Draughtspersons, 2 437 candidats… — ne compter que les 4 418 PrArch. Registre consultable (recherche nominale), pas de liste téléchargeable. SAIA = section UIA."
+   "notes": "Statutory council (Architectural Profession Act 44 of 2000). Category PITFALL: 2023/24 report = 11,564 registrants across ALL categories: 4,418 Professional Architects, 1,931 Senior Technologists, 1,116 Technologists, 1,371 Draughtspersons, 2,437 candidates… — count only the 4,418 PrArch. Searchable register (search by name), no downloadable list. SAIA = UIA section."
   },
   {
    "iso2": "ZM",
    "pays": "Zambie",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Zambia Institute of Architects",
    "sigle": "ZIA",
    "type_organisme": "association",
@@ -194,22 +194,22 @@
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Cas hybride : l'institut EST l'autorité statutaire — Zambia Institute of Architects Act (Cap 442, 1995). Section UIA. Registre non publié : accès via portail membres ; site 403 aux robots ; aucun effectif officiel en ligne."
+   "notes": "Hybrid case: the institute IS the statutory authority — Zambia Institute of Architects Act (Cap 442, 1995). UIA section. Register not published: access through the members’ portal; the site returns 403 to robots; no official headcount online."
   },
   {
    "iso2": "ZW",
    "pays": "Zimbabwe",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Architects Council of Zimbabwe",
    "sigle": "ACZ",
-   "type_organisme": "conseil",
+   "type_organisme": "council",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": false,
    "effectif": 64,
    "effectif_annee": 2026,
    "effectif_source_url": "http://www.zimarchitects.com/list-of-architects/",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "http://www.zimarchitects.com/list-of-architects/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -223,12 +223,12 @@
     }
    ],
    "qualite": "B",
-   "notes": "Conseil statutaire (Architects Act Ch. 27:01, 1976). Liste publique sur le site commun IAZ/ACZ, comptée : 64 noms — probablement partielle (praticiens actifs), à traiter avec prudence. Pas de section UIA listée."
+   "notes": "Statutory council (Architects Act Ch. 27:01, 1976). Public list on the joint IAZ/ACZ site, counted: 64 names — probably partial (active practitioners), to be treated with caution. No UIA section listed."
   },
   {
    "iso2": "BW",
    "pays": "Botswana",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Architects Registration Council",
    "sigle": "ARC",
    "type_organisme": "board",
@@ -238,7 +238,7 @@
    "effectif": 275,
    "effectif_annee": 2025,
    "effectif_source_url": "https://arc.org.bw/registered-architectural-professionals/",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://arc.org.bw/registered-architectural-professionals/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://arc.org.bw/registered-architectural-professionals/",
@@ -252,22 +252,22 @@
     }
    ],
    "qualite": "A",
-   "notes": "Board sous le Cap 61:08 ; registre annuel publié en tableaux web : 2025 = 274 architectes + 67 technologues + 9 dessinateurs — ne compter que les 274. Champs d'exercice bornés : technologue ≤250 m², dessinateur ≤150 m². AAB = section UIA. CORRECTION 05.08.2026 (comptage direct du registre 2025) : 275 architectes — les rangs imprimés s'arrêtent à 274 mais une ligne (01240350) est inscrite sans rang ; + 68 technologues et 9 dessinateurs en annexes du corpus."
+   "notes": "Board under Cap 61:08; annual register published as web tables: 2025 = 274 architects + 67 technologists + 9 draughtspersons — count only the 274. Bounded scopes of practice: technologist ≤250 m², draughtsperson ≤150 m². AAB = UIA section. CORRECTION 5 August 2026 (direct count of the 2025 register): 275 architects — the printed ranks stop at 274 but one line (01240350) is entered without a rank; + 68 technologists and 9 draughtspersons in the corpus annexes."
   },
   {
    "iso2": "NA",
    "pays": "Namibie",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Namibia Council for Architects and Quantity Surveyors",
    "sigle": "NCAQS",
-   "type_organisme": "conseil",
+   "type_organisme": "council",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": false,
    "effectif": 132,
    "effectif_annee": 2026,
    "effectif_source_url": "https://nia.org.na/",
-   "effectif_nature": "estimation",
+   "effectif_nature": "estimate",
    "registre_url": "https://ncaqs.org/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
@@ -281,12 +281,12 @@
     }
    ],
    "qualite": "B",
-   "notes": "Conseil sous l'Act 13 of 1979 (hérité du droit sud-africain). Recherche publique via search.mymembership.co.za (même plateforme que SACAP). ±132 architectes inscrits + 108 en formation dans 81 agences (chiffres NIA) — pas de statistique NCAQS officielle. Pas de section UIA listée."
+   "notes": "Council under Act 13 of 1979 (inherited from South African law). Public search via search.mymembership.co.za (the same platform as SACAP). ±132 registered architects + 108 in training across 81 practices (NIA figures) — no official NCAQS statistic. No UIA section listed."
   },
   {
    "iso2": "MW",
    "pays": "Malawi",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Board of Architects and Quantity Surveyors",
    "sigle": "BAQS",
    "type_organisme": "board",
@@ -310,15 +310,15 @@
     }
    ],
    "qualite": "D",
-   "notes": "Board institué par l'Act 1991 (Cap 53:02), autorité d'inscription et de discipline (architectes + QS). Aucun site officiel ni registre en ligne ; portée de l'obligation non vérifiée. Pas de section UIA listée."
+   "notes": "Board established by the 1991 Act (Cap 53:02), the registration and disciplinary authority (architects + QS). No official site and no online register; the scope of the registration requirement has not been verified. No UIA section listed."
   },
   {
    "iso2": "ET",
    "pays": "Éthiopie",
-   "continent": "Afrique",
-   "organisme": "Ministère du Développement urbain / Ethiopian Construction Authority (enregistrement des professionnels)",
+   "continent": "Africa",
+   "organisme": "Ministry of Urban Development / Ethiopian Construction Authority (registration of professionals)",
    "sigle": null,
-   "type_organisme": "registre_etatique",
+   "type_organisme": "state_register",
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": true,
@@ -339,15 +339,15 @@
     }
    ],
    "qualite": "D",
-   "notes": "Régime particulier : pas d'ordre ni de board — enregistrement/certificat de compétence auprès du ministère (directive n° 718/2021). Registre ministériel non public, aucun effectif trouvé. L'AEA (août 1991, Addis-Abeba) est la section UIA ; ≈2 000 membres cités par des sources secondaires, non confirmés sur aea.et."
+   "notes": "Particular regime: neither a professional order nor a board — registration/certificate of competence with the ministry (directive no. 718/2021). Ministerial register not public, no headcount found. The AEA (August 1991, Addis Ababa) is the UIA section; ≈2,000 members cited by secondary sources, not confirmed on aea.et."
   },
   {
    "iso2": "ER",
    "pays": "Érythrée",
-   "continent": "Afrique",
-   "organisme": "Aucun organisme identifié",
+   "continent": "Africa",
+   "organisme": "No body identified",
    "sigle": null,
-   "type_organisme": "aucun",
+   "type_organisme": "none",
    "inscription_obligatoire": null,
    "titre_protege": null,
    "uia_membre": false,
@@ -361,15 +361,15 @@
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Aucune trace en ligne d'un board, ordre ou association d'architectes érythréenne ; seules des agences privées. Pas de section UIA."
+   "notes": "No online trace of an Eritrean board, professional order or association of architects; only private practices. No UIA section."
   },
   {
    "iso2": "SO",
    "pays": "Somalie",
-   "continent": "Afrique",
-   "organisme": "Aucun organisme statutaire identifié",
+   "continent": "Africa",
+   "organisme": "No statutory body identified",
    "sigle": null,
-   "type_organisme": "aucun",
+   "type_organisme": "none",
    "inscription_obligatoire": null,
    "titre_protege": null,
    "uia_membre": false,
@@ -390,15 +390,15 @@
     }
    ],
    "qualite": "D",
-   "notes": "Pas de régime légal propre aux architectes. SIA fondé 2023 (reconstruction post-conflit). Les ingénieurs s'enregistrent au Ministry of Public Works (mpwr.gov.so). Pas de section UIA."
+   "notes": "No legal regime specific to architects. SIA founded 2023 (post-conflict reconstruction). Engineers register with the Ministry of Public Works (mpwr.gov.so). No UIA section."
   },
   {
    "iso2": "SD",
    "pays": "Soudan",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Sudanese Engineering Council",
    "sigle": null,
-   "type_organisme": "syndicat_ingenieurs",
+   "type_organisme": "engineers_union",
    "inscription_obligatoire": null,
    "titre_protege": null,
    "uia_membre": true,
@@ -419,15 +419,15 @@
     }
    ],
    "qualite": "D",
-   "notes": "Les architectes s'inscrivent avec les ingénieurs au Sudanese Engineering Council (titres type « Specialist Architect »). Le Sudanese Institute of Architects est la section UIA. Guerre depuis 2023 : institutions désorganisées, aucun registre ni effectif publics."
+   "notes": "Architects register alongside engineers with the Sudanese Engineering Council (titles of the “Specialist Architect” type). The Sudanese Institute of Architects is the UIA section. War since 2023: institutions in disarray, no public register and no public headcount."
   },
   {
    "iso2": "SS",
    "pays": "Soudan du Sud",
-   "continent": "Afrique",
-   "organisme": "Aucun organisme propre aux architectes",
+   "continent": "Africa",
+   "organisme": "No body specific to architects",
    "sigle": null,
-   "type_organisme": "aucun",
+   "type_organisme": "none",
    "inscription_obligatoire": null,
    "titre_protege": null,
    "uia_membre": false,
@@ -448,12 +448,12 @@
     }
    ],
    "qualite": "D",
-   "notes": "Pas de board ni d'institut d'architectes. La SSES couvre ingénieurs, architectes, technologues ; un Engineering Council régule l'ingénierie. Première école d'architecture (Univ. de Juba) créée en 2020. Pas de section UIA."
+   "notes": "No architects’ board and no architects’ institute. The SSES covers engineers, architects and technologists; an Engineering Council regulates engineering. First school of architecture (Univ. of Juba) created in 2020. No UIA section."
   },
   {
    "iso2": "SL",
    "pays": "Sierra Leone",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Sierra Leone Institute of Architects",
    "sigle": "SLIA",
    "type_organisme": "association",
@@ -470,13 +470,13 @@
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Institut et régulateur confondus : la SLIA régule la profession au titre de l'Architects Act 1986 ; admission par examen (4 intronisés en 07/2024). Section UIA ; a rejoint la CAA en 2023. Aucun registre ni effectif publiés."
+   "notes": "Institute and regulator are one and the same: the SLIA regulates the profession under the Architects Act 1986; admission by examination (4 inducted in July 2024). UIA section; joined the CAA in 2023. No register and no headcount published."
   },
   {
    "iso2": "LR",
    "pays": "Libéria",
-   "continent": "Afrique",
-   "organisme": "Architects' Registration Board (créé par l'Architects' Act of 2023)",
+   "continent": "Africa",
+   "organisme": "Architects’ Registration Board (created by the Architects’ Act of 2023)",
    "sigle": "ARB",
    "type_organisme": "board",
    "inscription_obligatoire": true,
@@ -499,15 +499,15 @@
     }
    ],
    "qualite": "D",
-   "notes": "Régime naissant : l'Act de 2023 crée un board, installé par la LIA (presse 2023-2024). Pas encore de registre public ni d'effectif. Pas de section UIA."
+   "notes": "Emerging regime: the 2023 Act creates a board, installed by the LIA (press 2023-2024). No public register and no headcount as yet. No UIA section."
   },
   {
    "iso2": "GM",
    "pays": "Gambie",
-   "continent": "Afrique",
-   "organisme": "Aucun organisme identifié",
+   "continent": "Africa",
+   "organisme": "No body identified",
    "sigle": null,
-   "type_organisme": "aucun",
+   "type_organisme": "none",
    "inscription_obligatoire": null,
    "titre_protege": null,
    "uia_membre": false,
@@ -521,15 +521,15 @@
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Aucune loi, board ni institut gambien des architectes trouvés en ligne. Pas de section UIA."
+   "notes": "No Gambian architects’ act, board or institute found online. No UIA section."
   },
   {
    "iso2": "MZ",
    "pays": "Mozambique",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Ordem dos Arquitectos de Moçambique",
    "sigle": null,
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": false,
@@ -543,37 +543,37 @@
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Ordre créé par la Lei n° 13/2017 (droit public, inscription obligatoire ; architectes, urbanistes, planification). Présence réseaux sociaux (@oarqmoc) mais AUCUN site officiel ni liste d'inscrits ; aucun effectif publié. Sphère lusophone (CIALP) ; pas de section UIA listée."
+   "notes": "Order created by Lei n° 13/2017 (public law, compulsory registration; architects, urban planners, planning). Social media presence (@oarqmoc) but NO official site and no list of registrants; no headcount published. Lusophone sphere (CIALP); no UIA section listed."
   },
   {
    "iso2": "AO",
    "pays": "Angola",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Ordem dos Arquitectos de Angola",
    "sigle": "OA",
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": null,
    "titre_protege": null,
    "uia_membre": true,
    "effectif": 2056,
    "effectif_annee": 2024,
    "effectif_source_url": "https://oarquitectos.ao/wp-content/uploads/2025/02/LISTA-OFICIAL-DOS-ARQUITECTOS-INSCRITOS-9.pdf",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://oarquitectos.ao/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://oarquitectos.ao/wp-content/uploads/2025/02/LISTA-OFICIAL-DOS-ARQUITECTOS-INSCRITOS-9.pdf",
    "donnees_ouvertes_format": "PDF",
    "alternatives": [],
    "qualite": "A",
-   "notes": "Section UIA. « Lista Oficial dos Arquitectos Inscritos » n° 9 (année 2024, en ligne 02/2025) : PDF nominatif de 37 pages compté = 2 056 inscrits (OA-0001 et suivants ; liste n° 8 d'août 2024 : 1 876) — liste cumulative. Admission par examen (XIIe prévu octobre 2026). Siège Vila Alice, Luanda. Comptage direct de la Lista oficial 2024 (PDF du 13.02.2025) le 05.08.2026 : exactement 2 056, index continu 1..2056 ; état antérieur d'août 2024 : 1 876 inscrits (+180 en six mois)."
+   "notes": "UIA section. “Lista Oficial dos Arquitectos Inscritos” no. 9 (year 2024, online February 2025): 37-page nominal PDF, counted = 2,056 registrants (OA-0001 onwards; list no. 8 of August 2024: 1,876) — cumulative list. Admission by examination (the 12th scheduled for October 2026). Seat at Vila Alice, Luanda. Direct count of the Lista oficial 2024 (PDF of 13 February 2025), carried out on 5 August 2026: exactly 2,056, continuous index 1..2056; earlier state of August 2024: 1,876 registrants (+180 in six months)."
   },
   {
    "iso2": "CV",
    "pays": "Cap-Vert",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Ordem dos Arquitectos de Cabo Verde",
    "sigle": "OAC",
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": null,
    "titre_protege": null,
    "uia_membre": true,
@@ -587,15 +587,15 @@
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Statuts approuvés par le Decreto-Lei n° 60/99 (cadre Lei n° 126/IV/95) ; couvre architectes et urbanistes. Site arquitectos.org.cv (oac.cv parqué). Section « Arquitetos » sans liste ni effectif accessibles. Section UIA."
+   "notes": "Statutes approved by Decreto-Lei n° 60/99 (framework Lei n° 126/IV/95); covers architects and urban planners. Site arquitectos.org.cv (oac.cv parked). “Arquitetos” section with neither list nor headcount accessible. UIA section."
   },
   {
    "iso2": "ST",
    "pays": "São Tomé-et-Príncipe",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Ordem dos Engenheiros e Arquitectos de São Tomé e Príncipe",
    "sigle": null,
-   "type_organisme": "ordre",
+   "type_organisme": "order",
    "inscription_obligatoire": null,
    "titre_protege": null,
    "uia_membre": false,
@@ -609,22 +609,22 @@
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Ordre MIXTE ingénieurs-architectes ; inscriptions ouvertes en 2024 (source CIALP). Aucun site propre, registre ni effectif. Pas de section UIA."
+   "notes": "MIXED engineers-and-architects order; registration opened in 2024 (CIALP source). No site of its own, no register and no headcount. No UIA section."
   },
   {
    "iso2": "MU",
    "pays": "Maurice",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Professional Architects' Council",
    "sigle": "PAC",
-   "type_organisme": "conseil",
+   "type_organisme": "council",
    "inscription_obligatoire": true,
    "titre_protege": true,
    "uia_membre": true,
    "effectif": 274,
    "effectif_annee": 2026,
    "effectif_source_url": "https://pacmauritius.com/register-of-architects/",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://pacmauritius.com/register-of-architects/",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": "https://pacmauritius.com/register-of-architects/",
@@ -638,15 +638,15 @@
     }
    ],
    "qualite": "A",
-   "notes": "Conseil créé par le PAC Act 2011 ; titre « Architect » réservé aux inscrits. « List of Professional Architects Registered for the Year 2026 » publiée intégralement en tableau web : 331 architectes, plus liste des mentors. MAA = section UIA. Siège Quatre Bornes. CORRECTION 05.08.2026 (comptage direct de la table 2026) : 274 architectes — le 331 était le numéro d'inscription MAXIMAL, pas l'effectif (57 numéros radiés, listés au corpus) ; les 150 « Employment Mentors » sont un statut, tous déjà au registre."
+   "notes": "Council created by the PAC Act 2011; the title “Architect” is reserved for registrants. “List of Professional Architects Registered for the Year 2026” published in full as a web table: 331 architects, plus a list of mentors. MAA = UIA section. Seat at Quatre Bornes. CORRECTION 5 August 2026 (direct count of the 2026 table): 274 architects — the 331 was the HIGHEST registration number, not the headcount (57 numbers struck off, listed in the corpus); the 150 “Employment Mentors” are a status, all of them already on the register."
   },
   {
    "iso2": "SC",
    "pays": "Seychelles",
-   "continent": "Afrique",
-   "organisme": "Seychelles Licensing Authority (licences de services d'architecture)",
+   "continent": "Africa",
+   "organisme": "Seychelles Licensing Authority (architectural services licences)",
    "sigle": "SLA",
-   "type_organisme": "registre_etatique",
+   "type_organisme": "state_register",
    "inscription_obligatoire": true,
    "titre_protege": false,
    "uia_membre": false,
@@ -660,12 +660,12 @@
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Pas d'ordre ni board : licence de la Seychelles Licensing Authority (diplôme reconnu ou preuve de compétence). Le « Construction Professional Registration Bill 2022 » prévoyait un Council avec registre — adoption non vérifiée. Aucun effectif public. Pas de section UIA."
+   "notes": "Neither professional order nor board: a licence from the Seychelles Licensing Authority (recognised degree or proof of competence). The “Construction Professional Registration Bill 2022” provided for a Council with a register — adoption not verified. No public headcount. No UIA section."
   },
   {
    "iso2": "LS",
    "pays": "Lesotho",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Architectural Association of Lesotho",
    "sigle": "AAL",
    "type_organisme": "association",
@@ -675,22 +675,22 @@
    "effectif": 8,
    "effectif_annee": 2026,
    "effectif_source_url": "https://aal.org.ls/",
-   "effectif_nature": "registre",
+   "effectif_nature": "register",
    "registre_url": "https://aal.org.ls/directory",
    "registre_recherche_publique": true,
    "donnees_ouvertes_url": null,
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Aucune loi d'enregistrement trouvée : l'AAL est une association (Societies Act 1966) avec annuaire en ligne ; 8 « Active Members / Verified Professionals » affichés — couverture très faible, ne pas prendre pour l'ensemble des praticiens. Pas de section UIA."
+   "notes": "No registration act found: the AAL is an association (Societies Act 1966) with an online directory; 8 “Active Members / Verified Professionals” displayed — very low coverage, not to be taken for the whole body of practitioners. No UIA section."
   },
   {
    "iso2": "SZ",
    "pays": "Eswatini",
-   "continent": "Afrique",
+   "continent": "Africa",
    "organisme": "Architects, Engineers, Surveyors and Allied Professionals Registration Council",
    "sigle": "AESAP",
-   "type_organisme": "conseil",
+   "type_organisme": "council",
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": false,
@@ -704,15 +704,15 @@
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "D",
-   "notes": "Conseil MIXTE créé par l'Act n° 15 of 2013 ; la loi prévoit un registre et des audits de chantiers. Aucun site opérationnel (aesap.org.sz ne résout pas) ; effectif et registre non publics. Pas de section UIA."
+   "notes": "MIXED council created by Act no. 15 of 2013; the act provides for a register and for site audits. No operational site (aesap.org.sz does not resolve); headcount and register not public. No UIA section."
   },
   {
    "iso2": "EG",
    "pays": "Égypte",
-   "continent": "Afrique",
-   "organisme": "Egyptian Engineers Syndicate (نقابة المهندسين), division architecture",
+   "continent": "Africa",
+   "organisme": "Egyptian Engineers Syndicate (نقابة المهندسين), architecture division",
    "sigle": "EEA",
-   "type_organisme": "syndicat_ingenieurs",
+   "type_organisme": "engineers_union",
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": true,
@@ -733,7 +733,7 @@
     }
    ],
    "qualite": "D",
-   "notes": "Les architectes sont inscrits AVEC les ingénieurs au syndicat (lois 66/1947 puis 66/1974 ; adhésion requise pour exercer), dans la division architecture. Effectif de la division jamais publié (recherches AR/EN) ; toutes divisions : 470 000 (2012), >500 000 cités aux élections 2024, ~30 000 nouveaux/an. La SEA est la section UIA ; site syndical eea.org.eg."
+   "notes": "Architects are registered WITH the engineers in the syndicate (laws 66/1947 then 66/1974; membership required in order to practise), within the architecture division. The division’s headcount has never been published (searches in AR/EN); all divisions: 470,000 (2012), >500,000 cited at the 2024 elections, ~30,000 new members a year. The SEA is the UIA section; syndicate site eea.org.eg."
   }
  ]
 }
