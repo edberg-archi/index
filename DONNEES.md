@@ -3,7 +3,7 @@
 DÉRIVÉ de `data/atlas.json` par `outils/documenter.py` — NE PAS ÉDITER À LA MAIN.
 
 Jeu servi à l'adresse stable **https://index.archi/atlas.json** (UTF-8, licence CC BY 4.0).
-Constitué le 5 août 2026. **Compte de contrôle : 180 pays** (concorde avec SOURCES.md), 88 effectifs sourcés, A:25 B:55 C:9 D:91.
+Constitué le 5 août 2026. **Compte de contrôle : 180 pays** (concorde avec SOURCES.md), 88 effectifs sourcés, A:26 B:54 C:9 D:91.
 
 ## Structure
 
@@ -12,7 +12,7 @@ Constitué le 5 août 2026. **Compte de contrôle : 180 pays** (concorde avec SO
 | `meta` | objet | date de constitution, périmètre visé (197 juridictions), méthode en 6 points, revendication UIA |
 | `pays` | liste (180) | une entrée par pays — schéma ci-dessous |
 | `faitieres` | objet (8) | organisations faîtières (UIA, ACE, CAA, AUA…) avec leurs revendications sourcées |
-| `catalogue` | liste (35) | jeux de données publics recensés (éditeur, format, URL) |
+| `catalogue` | liste (36) | jeux de données publics recensés (éditeur, format, URL) |
 
 ## Champs d'une entrée `pays`
 
@@ -20,8 +20,8 @@ Constitué le 5 août 2026. **Compte de contrôle : 180 pays** (concorde avec SO
 |---|---|---:|---|
 | `alternatives` | liste | 180/180 | Listes NON officielles (associations type RIBA/AIA, annuaires) qui permettent de recouper — jamais confondues avec le registre. |
 | `continent` | texte | 180/180 | Continent (vocabulaire recensé ci-dessous). |
-| `donnees_ouvertes_format` | texte | 23/180 | Format du jeu téléchargeable (CSV, XLSX, PDF…). |
-| `donnees_ouvertes_url` | texte | 32/180 | Jeu de données téléchargeable en masse (open data, roster), quand il existe. |
+| `donnees_ouvertes_format` | texte | 24/180 | Format du jeu téléchargeable (CSV, XLSX, PDF…). |
+| `donnees_ouvertes_url` | texte | 33/180 | Jeu de données téléchargeable en masse (open data, roster), quand il existe. |
 | `effectif` | entier | 88/180 | Inscrits auprès de l'organisme officiel — voir `effectif_nature`. `null` = non publié. Ce que compte l'atlas : des INSCRITS, pas des diplômés ni des praticiens de fait. |
 | `effectif_annee` | entier | 84/180 | Année du chiffre. |
 | `effectif_nature` | texte | 88/180 | Nature de la source du chiffre (vocabulaire recensé ci-dessous). |
@@ -46,11 +46,11 @@ Constitué le 5 août 2026. **Compte de contrôle : 180 pays** (concorde avec SO
 
 ## Vocabulaires recensés
 
-**`qualite`** : A (25) · B (55) · C (9) · D (91)
+**`qualite`** : A (26) · B (54) · C (9) · D (91)
 
 **`continent`** : Afrique (53) · Europe (49) · Asie (45) · Amériques (29) · Océanie (4)
 
-**`effectif_nature`** : `registre` (38) · `rapport_officiel` (23) · `presse` (14) · `etude_sectorielle` (9) · `estimation` (3) · `liste_electorale` (1)
+**`effectif_nature`** : `registre` (39) · `rapport_officiel` (22) · `presse` (14) · `etude_sectorielle` (9) · `estimation` (3) · `liste_electorale` (1)
 
 **`type_organisme`** : `ordre` (41) · `registre_etatique` (28) · `association` (26) · `board` (23) · `aucun` (16) · `chambre` (16) · `conseil` (15) · `syndicat_ingenieurs` (15)
 

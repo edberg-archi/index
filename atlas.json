@@ -1293,7 +1293,7 @@
    "donnees_ouvertes_format": null,
    "alternatives": [],
    "qualite": "A",
-   "notes": "Tableau de l'Ordre arrêté au 31.03.2026, dévoilé le 29.04.2026 : 168 architectes (143 h / 25 f) + 68 cabinets (le portail officiel titre « 167 » — divergence d'une unité). 2024 : 126 architectes + 58 cabinets. Le tableau complet est téléchargeable sur onat.tg mais en IMAGE JPEG, pas en PDF. Décret n° 94-117/PMRT (code déontologique). Adhésion UIA en juillet 2023 (Copenhague). Président du Conseil supérieur : Péyébinesso Limazie.",
+   "notes": "Tableau de l'Ordre arrêté au 31.03.2026, dévoilé le 29.04.2026 : 168 architectes (143 h / 25 f) + 68 cabinets (le portail officiel titre « 167 » — divergence d'une unité). 2024 : 126 architectes + 58 cabinets. Le tableau complet est téléchargeable sur onat.tg mais en IMAGE JPEG, pas en PDF. Décret n° 94-117/PMRT (code déontologique). Adhésion UIA en juillet 2023 (Copenhague). Président du Conseil supérieur : Péyébinesso Limazie. CONFIRMÉ 05.08.2026 par transcription visuelle intégrale de l'affiche (3 agents, bandes à recouvrement, zéro conflit de nom) : 168 exactement (163 libéraux + 5 fonctionnaires, numéros 005-247 à 75 trous) — le « 167 » du portail est tranché ; 68 cabinets confirmés + 9 stagiaires en annexes du corpus ; années de serment capturées (cohortes 1996-2025).",
    "population_m": 9.2,
    "uia_section": "Ordre national des architectes du Togo (ONAT)"
   },
@@ -1633,7 +1633,7 @@
     }
    ],
    "qualite": "B",
-   "notes": "Lei 12.378/2010 (vérifiée) : registro obligatoire, exercice et titre protégés, RRT par projet. Compteur vivant vérifié le 05.08.2026 sur « Ache um Arquiteto » : 244 604 professionnels actifs (annuaire nominatif public). IGEO (igeo.caubr.gov.br) annonce « consulta, visualização e download » (article officiel 16.04.2025 : 236 085 architectes, 37 180 entreprises, 11,67 M de RRT). PIÈGE : caubr.gov.br et transparencia renvoient 403 aux robots/hors Brésil — l'export nominatif massif n'a pas pu être vérifié depuis l'étranger, d'où B et non A (très probablement disponible via IGEO/dados abertos). UIA : la section brésilienne est l'IAB, pas le CAU.",
+   "notes": "Lei 12.378/2010 (vérifiée) : registro obligatoire, exercice et titre protégés, RRT par projet. Compteur vivant vérifié le 05.08.2026 sur « Ache um Arquiteto » : 244 604 professionnels actifs (annuaire nominatif public). IGEO (igeo.caubr.gov.br) annonce « consulta, visualização e download » (article officiel 16.04.2025 : 236 085 architectes, 37 180 entreprises, 11,67 M de RRT). PIÈGE : caubr.gov.br et transparencia renvoient 403 aux robots/hors Brésil — l'export nominatif massif n'a pas pu être vérifié depuis l'étranger, d'où B et non A (très probablement disponible via IGEO/dados abertos). UIA : la section brésilienne est l'IAB, pas le CAU. Tentative du 05.08.2026 : igeo.caubr.gov.br ET transparencia.caubr.gov.br/dadosabertos répondent 403 hors du Brésil (vérifié) — la moisson nominative attendra un accès local ou une aide sur place.",
    "population_m": 211.0,
    "uia_section": "Instituto de Arquitetos do Brasil (IAB)",
    "nom_en": "Brazil"
@@ -2959,7 +2959,7 @@
     }
    ],
    "qualite": "A",
-   "notes": "2 663 « Arkitek Profesional » comptés le 05.08.2026 : la liste nominative INTÉGRALE est rendue en une page HTML — de facto téléchargeable en masse (grade A malgré l'absence de CSV). Le site exige un User-Agent navigateur (Cloudflare). LAM enregistre aussi Graduate Architects, technologues, etc. UIA : PAM. Confirmé par comptage direct le 05.08.2026 : 2 663 exactement (No 1-2663 continu ; 2 661 couples numéro-nom distincts, deux doublons d'impression gardés flaggés) ; rôle sœur « Graduate Architect » vu au portail, non moissonné.",
+   "notes": "2 663 « Arkitek Profesional » comptés le 05.08.2026 : la liste nominative INTÉGRALE est rendue en une page HTML — de facto téléchargeable en masse (grade A malgré l'absence de CSV). Le site exige un User-Agent navigateur (Cloudflare). LAM enregistre aussi Graduate Architects, technologues, etc. UIA : PAM. Confirmé par comptage direct le 05.08.2026 : 2 663 exactement (No 1-2663 continu ; 2 661 couples numéro-nom distincts, deux doublons d'impression gardés flaggés) ; rôle sœur « Graduate Architect » vu au portail, non moissonné. Rôle sœur moissonné 05.08.2026 : 2 821 Registered Graduate Architects (No 1-2821 continu, double contrôle) en annexe du corpus — la salle d'attente : 2 821 diplômés pour 2 663 Arkitek Profesional le même jour.",
    "population_m": 34.0,
    "uia_section": "Pertubuhan Akitek Malaysia (PAM)",
    "nom_en": "Malaysia"
@@ -3853,14 +3853,14 @@
    "inscription_obligatoire": true,
    "titre_protege": null,
    "uia_membre": true,
-   "effectif": 4500,
-   "effectif_annee": 2025,
-   "effectif_source_url": "https://kab.bg/za-kamarata/",
-   "effectif_nature": "rapport_officiel",
+   "effectif": 3571,
+   "effectif_annee": 2026,
+   "effectif_source_url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=240697",
+   "effectif_nature": "registre",
    "registre_url": "https://kab.bg/registr/",
    "registre_recherche_publique": true,
-   "donnees_ouvertes_url": null,
-   "donnees_ouvertes_format": null,
+   "donnees_ouvertes_url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=240697",
+   "donnees_ouvertes_format": "HTML",
    "alternatives": [
     {
      "nom": "Съюз на архитектите в България (САБ) — association, section UIA",
@@ -3869,8 +3869,8 @@
      "effectif": null
     }
    ],
-   "qualite": "B",
-   "notes": "Loi ЗКАИИП : la capacité de projeteur (ППП/ОПП) passe obligatoirement par la КАБ ; « plus de 4 500 » architectes, paysagistes et urbanistes (site officiel, relevé via extraits — kab.bg sert un contrôle JS aux robots). Le registre intégral est promulgué chaque année au Държавен вестник (ex. ДВ бр. 34 du 11.04.2023) → liste nominative massive en PDF. Section UIA = САБ (association), pas la КАБ. ACE 2024 : 4 000.",
+   "qualite": "A",
+   "notes": "Loi ЗКАИИП : la capacité de projeteur (ППП/ОПП) passe obligatoirement par la КАБ ; « plus de 4 500 » architectes, paysagistes et urbanistes (site officiel, relevé via extraits — kab.bg sert un contrôle JS aux robots). Le registre intégral est promulgué chaque année au Държавен вестник (ex. ДВ бр. 34 du 11.04.2023) → liste nominative massive en PDF. Section UIA = САБ (association), pas la КАБ. ACE 2024 : 4 000. CORRECTION 05.08.2026 (comptage direct du Регистър 2026 au ДВ брой 10 du 27.01.2026, grade B→A) : 3 571 architectes à PLEINE capacité ППП (3 269 BG + 9 UE + 6 tiers + 287 art. 230 ЗУТ) — l'ancien « 4 500+ » mêlait architectes, paysagistes (318) et urbanistes (27, en annexes du corpus) toutes capacités ; ATTENTION : les tomes II-III (ОПП, capacité restreinte) sont dans un AUTRE matériel du ДВ, non encore moissonné — 3 571 est un plancher exact, pas le total КАБ.",
    "population_m": 6.4,
    "uia_section": "Union of Architects of Bulgaria (UAB)",
    "ace_effectif_2024": 4000,
@@ -4608,7 +4608,7 @@
     }
    ],
    "qualite": "A",
-   "notes": "Réforme 2017 puis nouvelle loi : le « licencirani arhitekta » doit être inscrit au registre de la chambre (examen + 3 ans d'expérience). Registre public intégral en une page HTML : 758 membres au 05.08.2026, dont 708 « ARHITEKTA », 18 paysagistes, 7 planificateurs (comptage direct) ; pas d'export structuré. Pièges : l'IKCG subsiste pour les ingénieurs ; sacg.me mort (522) ; textes d'avant/après réforme contradictoires selon la date. CORRECTION 05.08.2026 (comptage direct des 738 fiches publiées) : 711 architectes — le 708 ne comptait que les fiches « ARHITEKTA » en MAJUSCULES (3 en minuscules ratées) ; + 18 paysagistes et 7 planificateurs en annexes ; la page annonce 758 membres mais n'en publie que 738 (écart de 20 indécidable).",
+   "notes": "Réforme 2017 puis nouvelle loi : le « licencirani arhitekta » doit être inscrit au registre de la chambre (examen + 3 ans d'expérience). Registre public intégral en une page HTML : 758 membres au 05.08.2026, dont 708 « ARHITEKTA », 18 paysagistes, 7 planificateurs (comptage direct) ; pas d'export structuré. Pièges : l'IKCG subsiste pour les ingénieurs ; sacg.me mort (522) ; textes d'avant/après réforme contradictoires selon la date. CORRECTION 05.08.2026 (comptage direct des 738 fiches publiées) : 711 architectes — le 708 ne comptait que les fiches « ARHITEKTA » en MAJUSCULES (3 en minuscules ratées) ; + 18 paysagistes et 7 planificateurs en annexes ; le compteur « 758 membres » est élucidé : 738 actifs + 20 membres à adhésion suspendue (registre mirovanje dédié, zéro recoupement) ; le registre des 82 membres étrangers est une vue filtrée du principal (recoupement 82/82) ; les fiches individuelles ne portent pas de numéro de licence (vérifié).",
    "population_m": 0.62,
    "uia_section": "Savez Arhitekata Crne Gore (SACG)",
    "nom_en": "Montenegro"
@@ -4763,7 +4763,7 @@
     }
    ],
    "qualite": "B",
-   "notes": "Loi 184/2001 : titre et droit de signature réservés, Tabloul Național al Arhitecților (TNA) géré par l'OAR ; ~2 700 membres à la fondation (2001), total actuel non publié en accès libre — oar.archi bloque les robots (403). Le TNA INTÉGRAL est publié chaque année au Monitorul Oficial (éd. 2024 : M.Of. 485 bis du 27.05.2024) → potentiel grade A ; legislatie.just.ro filtre aussi les robots. L'OAR (section UIA) ≠ UAR (association héritée). ACE 2024 : 6 200. Effectif repris de l'étude sectorielle ACE 2024, l'organisme n'en publiant pas.",
+   "notes": "Loi 184/2001 : titre et droit de signature réservés, Tabloul Național al Arhitecților (TNA) géré par l'OAR ; ~2 700 membres à la fondation (2001), total actuel non publié en accès libre — oar.archi bloque les robots (403). Le TNA INTÉGRAL est publié chaque année au Monitorul Oficial (éd. 2024 : M.Of. 485 bis du 27.05.2024) → potentiel grade A ; legislatie.just.ro filtre aussi les robots. L'OAR (section UIA) ≠ UAR (association héritée). ACE 2024 : 6 200. MOISSON 05.08.2026 : la filiale de BUCAREST extraite intégralement du site (m.à.j. 25.06.2026) — 4 752 inscrits dont 4 495 arhitecți (3 022 avec droit de signature, 718 stagiari), 240 conductori, 17 arhitecți de interior ; les pages Ș/Ț d'abord ratées par le crawl, récupérées (+122). Nr. TNA observés jusqu'à 13 784 = plafond des inscriptions nationales historiques. Le national reste géo-bloqué. Effectif repris de l'étude sectorielle ACE 2024, l'organisme n'en publiant pas.",
    "population_m": 19.0,
    "uia_section": "Ordinul Arhitecților din România (OAR)",
    "ace_effectif_2024": 6200,
@@ -6202,6 +6202,14 @@
    "format": "—",
    "editeur": "Conselho de Arquitetura e Urbanismo do Brasil",
    "url": "https://transparencia.caubr.gov.br/dadosabertos/",
+   "etat": "en ligne"
+  },
+  {
+   "pays": "Bulgarie",
+   "jeu": "Registre / données de KAB",
+   "format": "HTML",
+   "editeur": "Камара на архитектите в България",
+   "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=240697",
    "etat": "en ligne"
   },
   {

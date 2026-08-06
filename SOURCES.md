@@ -1,6 +1,6 @@
 # SOURCES — dérivé de data/atlas.json par outils/fusionner.py — NE PAS ÉDITER À LA MAIN
 
-Constitué le 5 août 2026. **Compte de contrôle : 180 pays** (doit concorder avec atlas.json), 88 effectifs sourcés, 25 grade A, 55 grade B.
+Constitué le 5 août 2026. **Compte de contrôle : 180 pays** (doit concorder avec atlas.json), 88 effectifs sourcés, 26 grade A, 54 grade B.
 
 | Pays | Organisme | Effectif | Année | Nature | Source |
 |---|---|---:|---|---|---|
@@ -140,7 +140,7 @@ Constitué le 5 août 2026. **Compte de contrôle : 180 pays** (doit concorder a
 | Belgique | Ordre des architectes / Orde van Architecten (deux ailes : Vlaamse Raad et Conseil francophone et germanophone) | 14351 | 2024 | rapport_officiel | https://www.architect.be/sites/default/files/2025-06/Jaarverslag%202024_0.pdf |
 | Biélorussie | Attestation qualifiante d'État (Ministère de l'architecture et de la construction), opérée par РУП « Белстройцентр » | — | — | — |  |
 | Bosnie-Herzégovine | Licences par entité : Federalno ministarstvo prostornog uređenja (FBiH) ; ministère RS ; Brčko à part | 226 | 2026 | registre | https://fmpu.gov.ba/ovlastenja/fizicka-lica-osobe/ |
-| Bulgarie | Камара на архитектите в България | 4500 | 2025 | rapport_officiel | https://kab.bg/za-kamarata/ |
+| Bulgarie | Камара на архитектите в България | 3571 | 2026 | registre | https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=240697 |
 | Chypre | Επιστημονικό Τεχνικό Επιμελητήριο Κύπρου (ETEK) | 3100 | 2024 | etude_sectorielle | https://ace-cae.eu/wp-content/uploads/2025/04/2024-ACE-Sector-Study-EN-04042025.pdf |
 | Croatie | Hrvatska komora arhitekata | 2998 | 2026 | registre | https://www.arhitekti-hka.hr/hr/imenik/imenik-ovlastenih-arhitekata/?poc=A |
 | Danemark | Akademisk Arkitektforening (Arkitektforeningen) | 6000 | — | rapport_officiel | https://arkitektforeningen.dk/organisation/ |

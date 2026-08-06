@@ -2,6 +2,8 @@
 
 **https://index.archi** · dataset: [`atlas.json`](https://index.archi/atlas.json) · licence **CC BY 4.0**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21819381.svg)](https://doi.org/10.5281/zenodo.21819381)
+
 For each of **180 countries**: the official registration body (order, chamber, board,
 council), whether registration is mandatory, whether the title *architect* is legally
 protected, the **sourced and dated headcount**, the public register, downloadable open
@@ -42,9 +44,11 @@ welcome and are credited. Every figure can be disputed against its source URL.
 
 ## Cite
 
-> Edberg Porporty, *INDEX — Atlas mondial des ordres et registres d'architectes*,
-> https://index.archi, CC BY 4.0.
+> Edberg Porporty (2026). *INDEX — Atlas mondial des ordres et registres
+> d'architectes*. Zenodo. https://doi.org/10.5281/zenodo.21819381
 
+The DOI above is the **concept DOI**: it always resolves to the latest version.
+To cite this exact release, use `10.5281/zenodo.21819382` (v1.0.0).
 Machine-readable citation: [`CITATION.cff`](CITATION.cff).
 
 ---

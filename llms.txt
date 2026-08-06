@@ -23,9 +23,12 @@ and excluded from sums.
 
 ## Citation
 
+- DOI (concept, always latest): **10.5281/zenodo.21819381**
+- DOI (this version, v1.0.0): 10.5281/zenodo.21819382
 - [CITATION.cff](https://index.archi/CITATION.cff)
-- Cite as: Edberg Porporty, "INDEX — Atlas mondial des ordres et registres
-  d'architectes", https://index.archi (CC BY 4.0)
+- Cite as: Edberg Porporty (2026). "INDEX — Atlas mondial des ordres et
+  registres d'architectes". Zenodo. https://doi.org/10.5281/zenodo.21819381
+  (CC BY 4.0)
 
 ## Reading rules
 
